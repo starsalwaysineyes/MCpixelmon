@@ -53,6 +53,18 @@
     },
     "done": true
   },
+  "pixelmon:recipes/decorative/purple_vending_machine": {
+    "criteria": {
+      "has_lemonade": "2024-01-18 12:35:16 +0000"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/machines/green_vending_machine": {
+    "criteria": {
+      "has_lemonade": "2024-01-18 12:35:16 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/lime_concrete_powder": {
     "criteria": {
       "has_sand": "2024-01-17 15:21:59 +0000"
@@ -229,6 +241,12 @@
     },
     "done": true
   },
+  "pixelmon:recipes/decorative/brown_vending_machine": {
+    "criteria": {
+      "has_lemonade": "2024-01-18 12:35:16 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/gold_nugget": {
     "criteria": {
       "has_gold_ingot": "2024-01-18 08:39:22 +0000"
@@ -238,6 +256,13 @@
   "minecraft:recipes/combat/iron_leggings": {
     "criteria": {
       "has_iron_ingot": "2024-01-17 17:41:51 +0000"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decorative/yellow_vending_machine": {
+    "criteria": {
+      "has_the_recipe": "2024-01-18 12:35:16 +0000",
+      "has_lemonade": "2024-01-18 12:35:16 +0000"
     },
     "done": true
   },
@@ -301,6 +326,13 @@
     },
     "done": true
   },
+  "pixelmon:recipes/decorative/blue_vending_machine": {
+    "criteria": {
+      "has_the_recipe": "2024-01-18 12:35:16 +0000",
+      "has_lemonade": "2024-01-18 12:35:16 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/fence_gate": {
     "criteria": {
       "has_planks": "2024-01-17 16:38:13 +0000"
@@ -325,9 +357,22 @@
     },
     "done": true
   },
+  "pixelmon:recipes/decorative/pink_vending_machine": {
+    "criteria": {
+      "has_lemonade": "2024-01-18 12:35:16 +0000"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/transportation/boat_eucalyptus": {
     "criteria": {
       "entered_water": "2024-01-17 15:19:41 +0000"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decorative/green_vending_machine": {
+    "criteria": {
+      "has_the_recipe": "2024-01-18 12:35:16 +0000",
+      "has_lemonade": "2024-01-18 12:35:16 +0000"
     },
     "done": true
   },
@@ -421,15 +466,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/comparator": {
-    "criteria": {
-      "has_quartz": "2024-01-18 09:46:51 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/combat/diamond_chestplate": {
     "criteria": {
       "has_diamond": "2024-01-18 09:02:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/comparator": {
+    "criteria": {
+      "has_quartz": "2024-01-18 09:46:51 +0000"
     },
     "done": true
   },
@@ -457,9 +502,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2024-01-18 18:56:07 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/diamond_leggings": {
     "criteria": {
       "has_diamond": "2024-01-18 09:02:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/armor_stand": {
+    "criteria": {
+      "has_stone_slab": "2024-01-18 18:48:28 +0000"
     },
     "done": true
   },
@@ -559,16 +616,22 @@
     },
     "done": true
   },
+  "pixelmon:recipes/lures/lure_casing_strong": {
+    "criteria": {
+      "has_gold_ingot": "2024-01-18 08:39:22 +0000",
+      "has_crystal": "2024-01-18 09:09:22 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/cyan_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2024-01-18 08:48:49 +0000"
     },
     "done": true
   },
-  "pixelmon:recipes/lures/lure_casing_strong": {
+  "minecraft:adventure/root": {
     "criteria": {
-      "has_gold_ingot": "2024-01-18 08:39:22 +0000",
-      "has_crystal": "2024-01-18 09:09:22 +0000"
+      "killed_something": "2024-01-18 17:54:00 +0000"
     },
     "done": true
   },
@@ -638,6 +701,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "shulker": "2024-01-18 17:54:00 +0000"
+    },
+    "done": false
+  },
   "minecraft:story/enter_the_nether": {
     "criteria": {
       "entered_nether": "2024-01-18 09:46:26 +0000"
@@ -686,6 +755,12 @@
     },
     "done": true
   },
+  "pixelmon:recipes/decorative/white_vending_machine": {
+    "criteria": {
+      "has_lemonade": "2024-01-18 12:35:16 +0000"
+    },
+    "done": true
+  },
   "pixelmon:recipes/machines/infuser": {
     "criteria": {
       "has_furnace": "2024-01-17 15:50:01 +0000"
@@ -707,6 +782,12 @@
   "minecraft:story/mine_diamond": {
     "criteria": {
       "diamond": "2024-01-18 09:02:33 +0000"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/machines/blue_vending_machine": {
+    "criteria": {
+      "has_lemonade": "2024-01-18 12:35:16 +0000"
     },
     "done": true
   },
@@ -737,6 +818,13 @@
   "minecraft:recipes/building_blocks/orange_concrete_powder": {
     "criteria": {
       "has_sand": "2024-01-17 15:21:59 +0000"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/machines/orange_vending_machine": {
+    "criteria": {
+      "has_the_recipe": "2024-01-18 12:35:16 +0000",
+      "has_lemonade": "2024-01-18 12:35:16 +0000"
     },
     "done": true
   },
@@ -812,6 +900,13 @@
     },
     "done": true
   },
+  "pixelmon:recipes/decorative/red_vending_machine": {
+    "criteria": {
+      "has_the_recipe": "2024-01-18 12:35:16 +0000",
+      "has_lemonade": "2024-01-18 12:35:16 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/iron_block": {
     "criteria": {
       "has_at_least_9_iron_ingot": "2024-01-18 09:56:55 +0000"
@@ -875,6 +970,12 @@
   "minecraft:recipes/redstone/light_weighted_pressure_plate": {
     "criteria": {
       "has_gold_ingot": "2024-01-18 08:39:22 +0000"
+    },
+    "done": true
+  },
+  "pixelmon:balls/great_ball_capture": {
+    "criteria": {
+      "great_ball_capture": "2024-01-18 16:57:53 +0000"
     },
     "done": true
   },
@@ -1035,6 +1136,12 @@
     },
     "done": true
   },
+  "pixelmon:recipes/decorative/orange_vending_machine": {
+    "criteria": {
+      "has_lemonade": "2024-01-18 12:35:16 +0000"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/transportation/boat_ebony": {
     "criteria": {
       "entered_water": "2024-01-17 15:19:41 +0000"
@@ -1137,6 +1244,18 @@
     },
     "done": true
   },
+  "pixelmon:recipes/decorative/black_vending_machine": {
+    "criteria": {
+      "has_lemonade": "2024-01-18 12:35:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "shulker": "2024-01-18 17:54:00 +0000"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/buildingblocks/coarse_sandy_dirt": {
     "criteria": {
       "has_gravel": "2024-01-17 15:27:21 +0000"
@@ -1161,15 +1280,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/quartz_block": {
+  "pixelmon:recipes/decorative/gray_vending_machine": {
     "criteria": {
-      "has_quartz": "2024-01-18 09:46:51 +0000"
+      "has_lemonade": "2024-01-18 12:35:16 +0000"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/polished_andesite": {
     "criteria": {
       "has_stone": "2024-01-18 08:59:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_block": {
+    "criteria": {
+      "has_quartz": "2024-01-18 09:46:51 +0000"
     },
     "done": true
   },
@@ -1197,6 +1322,7 @@
       "savanna_rock": "2024-01-17 17:38:47 +0000",
       "ice_mountains": "2024-01-17 15:22:31 +0000",
       "taiga": "2024-01-17 16:58:37 +0000",
+      "taiga_hills": "2024-01-18 13:55:43 +0000",
       "birch_forest_hills": "2024-01-18 06:50:01 +0000",
       "taiga_cold": "2024-01-17 15:24:05 +0000",
       "ocean": "2024-01-17 16:40:29 +0000",
@@ -1204,7 +1330,8 @@
       "roofed_forest": "2024-01-17 15:54:46 +0000",
       "cold_beach": "2024-01-17 16:42:33 +0000",
       "river": "2024-01-17 15:53:28 +0000",
-      "desert": "2024-01-17 17:40:19 +0000"
+      "desert": "2024-01-17 17:40:19 +0000",
+      "stone_beach": "2024-01-18 17:19:40 +0000"
     },
     "done": false
   },
@@ -1217,6 +1344,12 @@
   "minecraft:recipes/decorations/purple_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2024-01-18 08:48:49 +0000"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/machines/red_vending_machine": {
+    "criteria": {
+      "has_lemonade": "2024-01-18 12:35:16 +0000"
     },
     "done": true
   },
@@ -1281,6 +1414,12 @@
     },
     "done": true
   },
+  "pixelmon:recipes/decorative/cyan_vending_machine": {
+    "criteria": {
+      "has_lemonade": "2024-01-18 12:35:16 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/heavy_weighted_pressure_plate": {
     "criteria": {
       "has_iron_ingot": "2024-01-17 17:41:51 +0000"
@@ -1305,6 +1444,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/purple_shulker_box": {
+    "criteria": {
+      "has_shulker_shell": "2024-01-18 17:54:00 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/lapis_block": {
     "criteria": {
       "has_at_least_9_lapis": "2024-01-18 09:25:41 +0000"
@@ -1323,6 +1468,12 @@
     },
     "done": true
   },
+  "biomesoplenty:recipes/misc/sand_from_dried_sand": {
+    "criteria": {
+      "has_gem_block": "2024-01-18 18:56:07 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/piston": {
     "criteria": {
       "has_redstone": "2024-01-17 16:04:30 +0000"
@@ -1335,9 +1486,21 @@
     },
     "done": true
   },
+  "pixelmon:recipes/machines/yellow_vending_machine": {
+    "criteria": {
+      "has_lemonade": "2024-01-18 12:35:16 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone_stairs": {
     "criteria": {
       "has_cobblestone": "2024-01-17 17:03:56 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/misc/mud_from_dirt": {
+    "criteria": {
+      "has_gem_block": "2024-01-18 18:56:07 +0000"
     },
     "done": true
   },
@@ -1374,6 +1537,13 @@
   "minecraft:recipes/redstone/wooden_door": {
     "criteria": {
       "has_planks": "2024-01-17 16:38:13 +0000"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/machines/pink_vending_machine": {
+    "criteria": {
+      "has_the_recipe": "2024-01-18 12:35:16 +0000",
+      "has_lemonade": "2024-01-18 12:35:16 +0000"
     },
     "done": true
   },
