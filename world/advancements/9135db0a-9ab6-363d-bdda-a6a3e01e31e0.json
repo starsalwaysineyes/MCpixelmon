@@ -35,21 +35,39 @@
     },
     "done": true
   },
+  "biomesoplenty:recipes/buildingblocks/coarse_silty_dirt": {
+    "criteria": {
+      "has_gravel": "2024-01-18 07:33:28 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/buildingblocks/coarse_sandy_dirt": {
+    "criteria": {
+      "has_gravel": "2024-01-18 07:33:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_lilac": {
+    "criteria": {
+      "has_double_plant": "2024-01-18 06:37:57 +0000"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/decorations/crafting_table_from_bop_wood": {
     "criteria": {
       "has_the_recipe": "2024-01-17 17:36:15 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/oak_wooden_slab": {
-    "criteria": {
-      "has_planks": "2024-01-17 17:36:15 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/pink_dye_from_peony": {
     "criteria": {
       "has_double_plant": "2024-01-17 17:04:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_wooden_slab": {
+    "criteria": {
+      "has_planks": "2024-01-17 17:36:15 +0000"
     },
     "done": true
   },
@@ -62,6 +80,12 @@
   "biomesoplenty:recipes/redstone/trapdoor_from_bop_wood": {
     "criteria": {
       "has_the_recipe": "2024-01-17 17:36:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite": {
+    "criteria": {
+      "has_stone": "2024-01-18 06:49:52 +0000"
     },
     "done": true
   },
@@ -93,20 +117,26 @@
     "criteria": {
       "ice_flats": "2024-01-17 16:47:49 +0000",
       "frozen_river": "2024-01-17 16:52:25 +0000",
+      "taiga_cold_hills": "2024-01-18 07:55:11 +0000",
       "forest": "2024-01-17 15:37:10 +0000",
       "swampland": "2024-01-17 15:48:09 +0000",
       "birch_forest": "2024-01-17 15:47:25 +0000",
       "deep_ocean": "2024-01-17 15:40:10 +0000",
       "beaches": "2024-01-17 15:37:36 +0000",
       "extreme_hills_with_trees": "2024-01-17 17:06:28 +0000",
+      "desert_hills": "2024-01-18 07:07:19 +0000",
       "forest_hills": "2024-01-17 16:41:44 +0000",
       "plains": "2024-01-17 15:41:33 +0000",
+      "savanna": "2024-01-18 07:02:54 +0000",
       "ice_mountains": "2024-01-17 16:49:55 +0000",
       "taiga": "2024-01-17 16:54:36 +0000",
+      "taiga_hills": "2024-01-18 06:38:06 +0000",
+      "taiga_cold": "2024-01-18 07:55:06 +0000",
       "ocean": "2024-01-17 15:54:49 +0000",
       "extreme_hills": "2024-01-17 17:02:30 +0000",
       "roofed_forest": "2024-01-17 15:52:19 +0000",
-      "river": "2024-01-17 15:46:54 +0000"
+      "river": "2024-01-17 15:46:54 +0000",
+      "desert": "2024-01-18 07:08:56 +0000"
     },
     "done": false
   },
@@ -133,6 +163,12 @@
       "capture_any": "2024-01-17 17:40:11 +0000"
     },
     "done": true
+  },
+  "pixelmon:recipes/lures/lure_type_strong": {
+    "criteria": {
+      "has_lum": "2024-01-18 07:08:28 +0000"
+    },
+    "done": false
   },
   "minecraft:recipes/transportation/birch_boat": {
     "criteria": {
@@ -200,17 +236,35 @@
     },
     "done": true
   },
+  "pixelmon:recipes/lures/lure_casing_weak": {
+    "criteria": {
+      "has_crystal": "2024-01-18 06:48:08 +0000"
+    },
+    "done": false
+  },
   "biomesoplenty:recipes/transportation/boat_redwood": {
     "criteria": {
       "entered_water": "2024-01-17 15:37:10 +0000"
     },
     "done": true
   },
+  "biomesoplenty:biomesoplenty/terrestrial_artifact": {
+    "criteria": {
+      "emerald": "2024-01-18 06:48:07 +0000"
+    },
+    "done": false
+  },
   "minecraft:recipes/misc/stick": {
     "criteria": {
       "has_planks": "2024-01-17 17:36:15 +0000"
     },
     "done": true
+  },
+  "pixelmon:recipes/lures/lure_casing_strong": {
+    "criteria": {
+      "has_crystal": "2024-01-18 06:48:08 +0000"
+    },
+    "done": false
   },
   "minecraft:recipes/transportation/boat": {
     "criteria": {
@@ -233,6 +287,12 @@
   "minecraft:recipes/decorations/sign": {
     "criteria": {
       "has_planks": "2024-01-17 17:36:15 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/buildingblocks/coarse_loamy_dirt": {
+    "criteria": {
+      "has_gravel": "2024-01-18 07:33:28 +0000"
     },
     "done": true
   },
@@ -308,6 +368,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/carrot_on_a_stick": {
+    "criteria": {
+      "has_carrot": "2024-01-18 07:01:33 +0000"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/transportation/boat_jacaranda": {
     "criteria": {
       "entered_water": "2024-01-17 15:37:10 +0000"
@@ -360,6 +426,12 @@
   "minecraft:recipes/building_blocks/black_concrete_powder": {
     "criteria": {
       "has_sand": "2024-01-17 15:47:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/coarse_dirt": {
+    "criteria": {
+      "has_gravel": "2024-01-18 07:33:28 +0000"
     },
     "done": true
   },
