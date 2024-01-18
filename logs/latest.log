@@ -1,822 +1,189 @@
-[16:31:51] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[16:31:51] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[16:31:51] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[16:31:51] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2859 for Minecraft 1.12.2 loading
-[16:31:51] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_392, running on Linux:amd64:6.2.0-1018-azure, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
-[16:31:51] [main/INFO] [FML]: Searching /workspaces/MCpixelmon/./mods for mods
-[16:31:51] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[16:31:51] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[16:31:51] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[16:31:51] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[16:31:51] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[16:31:54] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
-[16:31:54] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[16:31:54] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[16:31:54] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[16:31:54] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[16:31:55] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
-[16:31:59] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
-[16:31:59] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2859 Initialized
-[16:31:59] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
-[16:32:00] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
-[16:32:00] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
-[16:32:00] [Server thread/INFO] [FML]: Searching /workspaces/MCpixelmon/./mods for mods
-[16:32:02] [Server thread/INFO] [FML]: Forge Mod Loader has identified 11 mods to load
-[16:32:03] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
-[16:32:03] [Server thread/WARN] [FML]: Missing English translation for bop_patch: assets/bop_patch/lang/en_us.lang
-[16:32:03] [Server thread/WARN] [FML]: Missing English translation for pixelextras: assets/pixelextras/lang/en_us.lang
-[16:32:03] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, biomesoplenty, bop_patch, journeymap, naturescompass, pixelextras, pixelmon, tcg] at CLIENT
-[16:32:03] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, biomesoplenty, bop_patch, journeymap, naturescompass, pixelextras, pixelmon, tcg] at SERVER
-[16:32:04] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
-[16:32:04] [Server thread/INFO] [FML]: Found 1189 ObjectHolder annotations
-[16:32:04] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
-[16:32:04] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
-[16:32:04] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
-[16:32:04] [Forge Version Check/INFO] [forge.VersionCheck]: [pixelmon] Starting version check at https://reforged.gg/forge/update.json
-[16:32:05] [Forge Version Check/INFO] [forge.VersionCheck]: [pixelmon] Found status: OUTDATED Target: 8.4.3
-[16:32:05] [Forge Version Check/INFO] [forge.VersionCheck]: [pixelextras] Starting version check at https://ogn.pixelmonmod.com/update/sm-pe/update.json
-[16:32:05] [Forge Version Check/INFO] [forge.VersionCheck]: [pixelextras] Found status: UP_TO_DATE Target: null
-[16:32:05] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[16:32:06] [Server thread/INFO] [Pixelmon]: Loading Pixelmon version 8.4.2
-[16:32:07] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: UP_TO_DATE Target: null
-[16:32:08] [Server thread/INFO] [Pixelmon]: Checking for migrations..
-[16:32:09] [Server thread/INFO] [Pixelmon]: Loading Advancements
-[16:32:12] [Server thread/INFO] [FML]: Applying holder lookups
-[16:32:12] [Server thread/INFO] [FML]: Holder lookups applied
-[16:32:12] [Server thread/INFO] [FML]: Applying holder lookups
-[16:32:12] [Server thread/INFO] [FML]: Holder lookups applied
-[16:32:12] [Server thread/INFO] [FML]: Applying holder lookups
-[16:32:12] [Server thread/INFO] [FML]: Holder lookups applied
-[16:32:12] [Server thread/INFO] [FML]: Applying holder lookups
-[16:32:12] [Server thread/INFO] [FML]: Holder lookups applied
-[16:32:12] [Server thread/INFO] [FML]: Injecting itemstacks
-[16:32:12] [Server thread/INFO] [FML]: Itemstack injection complete
-[16:32:12] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
-[16:32:12] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
-[16:32:12] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
-[16:32:12] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
-[16:32:13] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using epoll channel type
-[16:32:13] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[16:32:13] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
-[16:32:13] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[16:32:13] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
-[16:32:13] [Server thread/INFO] [FML]: Applying holder lookups
-[16:32:14] [Server thread/INFO] [FML]: Holder lookups applied
-[16:32:14] [Server thread/WARN] [bop_patch]: Could not find LeavesModelEventHandler, is biomesoplenty really installed?
-[16:32:14] [Server thread/INFO] [Pixelmon]: Registering shop items.
-[16:32:14] [Server thread/INFO] [Pixelmon]: Registering NPCs.
-[16:32:14] [Server thread/INFO] [Pixelmon]: Registering structures.
-[16:32:14] [Server thread/INFO] [Pixelmon]: Registering all drops.
-[16:32:15] [Server thread/INFO] [Pixelmon]: Registering battle rules.
-[16:32:15] [Server thread/INFO] [Pixelmon]: Registering Pokémon stats.
-[16:32:16] [Server thread/WARN] [Pixelmon]: Attack name invalid: Chloroblast
-[16:32:16] [Server thread/WARN] [Pixelmon]: Attack name invalid: Barb Barrage
-[16:32:16] [Server thread/WARN] [Pixelmon]: Attack name invalid: Ceaseless Edge
-[16:32:16] [Server thread/WARN] [Pixelmon]: Attack name invalid: Esper Wing
-[16:32:16] [Server thread/WARN] [Pixelmon]: Attack name invalid: Power Shift
-[16:32:16] [Server thread/WARN] [Pixelmon]: Attack name invalid: Shelter
-[16:32:16] [Server thread/WARN] [Pixelmon]: Attack name invalid: Shelter
-[16:32:16] [Server thread/WARN] [Pixelmon]: Attack name invalid: Psyshield Bash
-[16:32:16] [Server thread/WARN] [Pixelmon]: Attack name invalid: Tackled
-[16:32:16] [Server thread/WARN] [Pixelmon]: Attack name invalid: Wave Crash
-[16:32:16] [Server thread/WARN] [Pixelmon]: Attack name invalid: Springtide Storm
-[16:32:16] [Server thread/WARN] [Pixelmon]: Attack name invalid: Power Shift
-[16:32:17] [Server thread/INFO] [Pixelmon]: Registering quests.
-[16:32:17] [Server thread/INFO] [Pixelmon]: Loaded 39 Quests.
-[16:32:17] [Server thread/INFO] [Pixelmon TCG]: Initializing Pixelmon TCG v1.12.2-8.4.2-universal
-[16:32:18] [Server thread/INFO] [FML]: Injecting itemstacks
-[16:32:18] [Server thread/INFO] [FML]: Itemstack injection complete
-[16:32:18] [Server thread/INFO] [Pixelmon]: Registering spawn sets.
-[16:32:20] [Server thread/INFO] [Pixelmon]: Registering raid spawning.
-[16:32:20] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 11 mods
-[16:32:20] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
-[16:32:20] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
-[16:32:21] [Server thread/INFO] [FML]: Applying holder lookups
-[16:32:21] [Server thread/INFO] [FML]: Holder lookups applied
-[16:32:21] [Server thread/INFO] [FML]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@1be831c4)
-[16:32:21] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 946 advancements
-[16:32:22] [Server thread/INFO] [FML]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@1be831c4)
-[16:32:22] [Server thread/INFO] [STDOUT]: [biomesoplenty.common.world.BiomeProviderBOPHell:<init>:32]: settings for hell world: 
-[16:32:22] [Server thread/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@1be831c4)
-[16:32:22] [Server thread/INFO] [FML]: Loading dimension 72 (world) (net.minecraft.server.dedicated.DedicatedServer@1be831c4)
-[16:32:22] [Server thread/INFO] [FML]: Loading dimension 73 (world) (net.minecraft.server.dedicated.DedicatedServer@1be831c4)
-[16:32:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
-[16:32:23] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 0%
-[16:32:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 69%
-[16:32:24] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (3.967s)! For help, type "help" or "?"
-[16:32:24] [Server thread/INFO] [FML]: Unloading dimension 1
-[16:32:24] [Server thread/INFO] [FML]: Unloading dimension -1
-[16:32:24] [Server thread/INFO] [FML]: Unloading dimension 72
-[16:32:24] [Server thread/INFO] [FML]: Unloading dimension 73
-[16:32:54] [Netty Epoll Server IO #1/INFO] [FML]: Client protocol version 2
-[16:32:54] [Netty Epoll Server IO #1/INFO] [FML]: Client attempting to join with 14 mods : minecraft@1.12.2,FML@8.0.99.99,fancymenu@1.5.2,biomesoplenty@7.0.1.2444,pixelextras@2.5.17,bop_patch@1.0,gameshark@6.0.6,forge@14.23.5.2860,tcg@1.12.2-8.4.2-universal,konkrete@1.0.3,mcp@9.42,journeymap@1.12.2-5.7.1,pixelmon@8.4.2,naturescompass@1.8.5
-[16:32:54] [Netty Epoll Server IO #1/INFO] [journeymap]: CLIENT
-[16:32:55] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[16:32:55] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Aurora[/127.0.0.1:36176] logged in with entity id 3 at (2760.5251157322, 67.0, 3273.551929448245)
-[16:32:55] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Aurora joined the game
-[16:35:21] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 24df865e-b50d-4a1e-a1ca-ee66b972682d
-[16:35:59] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 24df865e-b50d-4a1e-a1ca-ee66b972682d
-[16:37:36] [Netty Epoll Server IO #2/INFO] [FML]: Client protocol version 2
-[16:37:36] [Netty Epoll Server IO #2/INFO] [FML]: Client attempting to join with 14 mods : minecraft@1.12.2,FML@8.0.99.99,fancymenu@1.5.2,biomesoplenty@7.0.1.2444,pixelextras@2.5.17,bop_patch@1.0,gameshark@6.0.6,forge@14.23.5.2860,tcg@1.12.2-8.4.2-universal,konkrete@1.0.3,mcp@9.42,journeymap@1.12.2-5.7.1,pixelmon@8.4.2,naturescompass@1.8.5
-[16:37:36] [Netty Epoll Server IO #2/INFO] [journeymap]: CLIENT
-[16:37:37] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[16:37:37] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Nepenthes[/127.0.0.1:59294] logged in with entity id 936 at (2737.699999988079, 72.0, 3305.008713258295)
-[16:37:37] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Nepenthes joined the game
-[16:37:37] [Server thread/WARN] [Pixelmon]: Found invalid objective progress data in an instance of quest Find Pokeloot.json, resetting that instance!
-[16:38:09] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 857c02cc-d2c4-467d-822a-25c5aabb69ba
-[16:38:10] [Server thread/INFO] [Pixelmon]: Registering NPCs.
-[16:38:10] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type malerocketgrunt for language zh_cn.
-[16:38:10] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type femaleaquagrunt for language zh_cn.
-[16:38:10] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type maleaquagrunt for language zh_cn.
-[16:38:10] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type femalemagmagrunt for language zh_cn.
-[16:38:10] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type malemagmagrunt for language zh_cn.
-[16:38:10] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type pirate for language zh_cn.
-[16:38:10] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type sport for language zh_cn.
-[16:38:10] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type gardener for language zh_cn.
-[16:38:10] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type pkmnbreeder_f for language zh_cn.
-[16:38:10] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type rancher for language zh_cn.
-[16:38:10] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type miner for language zh_cn.
-[16:38:10] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type blacksmith for language zh_cn.
-[16:38:10] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type steve for language zh_cn.
-[16:38:10] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type teamyellgruntmale for language zh_cn.
-[16:38:10] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type teamyellgruntfemale for language zh_cn.
-[16:38:10] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type skullgruntmale for language zh_cn.
-[16:38:10] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type skullgruntfemale for language zh_cn.
-[16:38:10] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type plasmagruntmale for language zh_cn.
-[16:38:10] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type plasmagruntfemale for language zh_cn.
-[16:38:10] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type n for language zh_cn.
-[16:38:10] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type mountaineer for language zh_cn.
-[16:38:10] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type magmaboss for language zh_cn.
-[16:38:10] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type guzma for language zh_cn.
-[16:38:10] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type giovani for language zh_cn.
-[16:38:10] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type gentleman for language zh_cn.
-[16:38:10] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type galacticgruntmale for language zh_cn.
-[16:38:10] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type galacticgruntfemale for language zh_cn.
-[16:38:10] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type galacticboss for language zh_cn.
-[16:38:10] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type flaregruntmale for language zh_cn.
-[16:38:10] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type flaregruntfemale for language zh_cn.
-[16:38:10] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type aquaboss for language zh_cn.
-[16:38:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Aurora: Set game difficulty to Peaceful]
-[16:39:12] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Xerneas moved wrongly!
-[16:39:25] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 24df865e-b50d-4a1e-a1ca-ee66b972682d
-[16:39:39] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Nepenthes: Nepenthes successfully healed Nepenthes's Pokémon!]
-[16:39:43] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 857c02cc-d2c4-467d-822a-25c5aabb69ba
-[16:41:07] [Server thread/INFO] [STDOUT]: [biomesoplenty.common.world.BiomeProviderBOPHell:<init>:32]: settings for hell world: 
-[16:41:07] [Server thread/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@1be831c4)
-[16:41:08] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Aurora moved too quickly! -1674.7673123101852,-10.0,-222.0
-[16:41:25] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Nepenthes: Nepenthes successfully healed Nepenthes's Pokémon!]
-[16:41:27] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 857c02cc-d2c4-467d-822a-25c5aabb69ba
-[16:41:48] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Aurora moved too quickly! 1675.3337668600925,10.0,222.0
-[16:41:49] [Server thread/INFO] [FML]: Unloading dimension -1
-[16:42:33] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Nepenthes: Nepenthes successfully healed Nepenthes's Pokémon!]
-[16:43:25] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 857c02cc-d2c4-467d-822a-25c5aabb69ba
-[16:43:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Aurora: Teleported Aurora to Nepenthes]
-[16:44:36] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Nepenthes: Nepenthes successfully healed Nepenthes's Pokémon!]
-[16:46:40] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 857c02cc-d2c4-467d-822a-25c5aabb69ba
-[16:47:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Aurora: Set game difficulty to Peaceful]
-[16:47:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Nepenthes fell out of the world
-[16:47:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Nepenthes: Killed Nepenthes]
-[16:49:11] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Pixelmon] Solgaleo has appeared in a den in a Plains biome!
-[16:49:11] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Spawned Solgaleo at: world x:1942, y:63, z:262
-[16:49:19] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Nepenthes: Teleported Nepenthes to Aurora]
-[16:49:35] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 24df865e-b50d-4a1e-a1ca-ee66b972682d
-[16:49:35] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 857c02cc-d2c4-467d-822a-25c5aabb69ba
-[16:50:56] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 24df865e-b50d-4a1e-a1ca-ee66b972682d
-[16:51:43] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID fad03da9-e6fa-4c01-a94c-af533b1b3f98
-[16:52:31] [Server thread/INFO] [STDOUT]: [biomesoplenty.common.world.BiomeProviderBOPHell:<init>:32]: settings for hell world: 
-[16:52:31] [Server thread/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@1be831c4)
-[16:52:32] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Nepenthes has made the advancement [We Need to Go Deeper]
-[16:52:32] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Nepenthes moved too quickly! -1675.199999988079,-10.0,-222.0
-[16:52:57] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Nepenthes moved too quickly! 1674.8784376790736,10.0,222.0
-[16:52:58] [Server thread/INFO] [FML]: Unloading dimension -1
-[16:53:07] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Nepenthes has made the advancement [Ice Bucket Challenge]
-[16:53:21] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Nepenthes: Nepenthes successfully healed Nepenthes's Pokémon!]
-[16:55:25] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 24df865e-b50d-4a1e-a1ca-ee66b972682d
-[16:56:00] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 24df865e-b50d-4a1e-a1ca-ee66b972682d
-[16:57:12] [Server thread/INFO] [FML]: Loading dimension 72 (world) (net.minecraft.server.dedicated.DedicatedServer@1be831c4)
-[16:57:14] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Aurora: Teleported Aurora to 3400.5, 80.0, 3400.5]
-[16:57:15] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Aurora moved too quickly! -1771.6756743092933,-15.978400037288665,-3230.5719491412524
-[16:57:16] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2652ms behind, skipping 53 tick(s)
-[16:57:17] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Nepenthes moved too quickly! 4.984269291838018,17.997894992343518,-1.737599345559829
-[16:57:38] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 24df865e-b50d-4a1e-a1ca-ee66b972682d
-[16:57:53] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Aurora has made the advancement [Three to get Ready]
-[16:58:30] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID fad03da9-e6fa-4c01-a94c-af533b1b3f98
-[16:59:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Pixelmon] Azelf has appeared in a den in a Forest biome!
-[16:59:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Spawned Azelf at: world x:1838, y:74, z:-174
-[16:59:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Aurora: Set game difficulty to Peaceful]
-[17:00:05] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 857c02cc-d2c4-467d-822a-25c5aabb69ba
-[17:00:41] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 24df865e-b50d-4a1e-a1ca-ee66b972682d
-[17:00:42] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Nepenthes: Nepenthes successfully healed Nepenthes's Pokémon!]
-[17:00:59] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 3212ms behind, skipping 64 tick(s)
-[17:01:29] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 857c02cc-d2c4-467d-822a-25c5aabb69ba
-[17:01:33] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 857c02cc-d2c4-467d-822a-25c5aabb69ba
-[17:01:58] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 24df865e-b50d-4a1e-a1ca-ee66b972682d
-[17:02:10] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 857c02cc-d2c4-467d-822a-25c5aabb69ba
-[17:02:37] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Vibrava moved wrongly!
-[17:03:47] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Pixelmon] Regice has appeared in a den in a Cold Taiga biome!
-[17:03:47] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Spawned Regice at: world x:2051, y:67, z:3003
-[17:04:17] [Server thread/INFO] [Pixelmon]: Bad TileEntity BlockPos{x=2205, y=89, z=-369} expected TileEntityBerryTree got TileEntityEvolutionRock
-[17:04:49] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Nepenthes moved too quickly! -233.2789444012003,69.08647072543096,368.05538597301995
-[17:04:49] [Server thread/INFO] [FML]: Unloading dimension 72
-[17:04:53] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Nepenthes: Teleported Nepenthes to Aurora]
-[17:05:06] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 24df865e-b50d-4a1e-a1ca-ee66b972682d
-[17:05:06] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID fad03da9-e6fa-4c01-a94c-af533b1b3f98
-[17:06:58] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Nepenthes: Nepenthes successfully healed Nepenthes's Pokémon!]
-[17:07:02] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 857c02cc-d2c4-467d-822a-25c5aabb69ba
-[17:07:02] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 24df865e-b50d-4a1e-a1ca-ee66b972682d
-[17:10:21] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Nepenthes: Nepenthes successfully healed Nepenthes's Pokémon!]
-[17:10:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Aurora: Aurora successfully healed Aurora's Pokémon!]
-[17:11:46] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [114, 231] in dimension 0 (overworld) while populating chunk [114, 232], causing cascading worldgen lag.
-[17:11:46] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[17:11:56] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Nepenthes: Teleported Nepenthes to Aurora]
-[17:12:05] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 24df865e-b50d-4a1e-a1ca-ee66b972682d
-[17:12:05] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 857c02cc-d2c4-467d-822a-25c5aabb69ba
-[17:14:26] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [72, 201] in dimension 0 (overworld) while populating chunk [73, 201], causing cascading worldgen lag.
-[17:14:26] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[17:14:40] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Aurora moved wrongly!
-[17:15:09] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Nepenthes: Teleported Nepenthes to Aurora]
-[17:15:25] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 24df865e-b50d-4a1e-a1ca-ee66b972682d
-[17:15:25] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID a01c170f-6ff6-44ee-9596-b0f93b407ae6
-[17:16:33] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 24df865e-b50d-4a1e-a1ca-ee66b972682d
-[17:17:27] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Flygon (vehicle of Nepenthes) moved too quickly! 7.5371341358682,-6.90406975152348,-1.4545065377669744
-[17:17:27] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 24df865e-b50d-4a1e-a1ca-ee66b972682d
-[17:18:05] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Aurora: Aurora successfully healed Aurora's Pokémon!]
-[17:19:20] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [58, 208] in dimension 0 (overworld) while populating chunk [59, 208], causing cascading worldgen lag.
-[17:19:20] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[17:20:26] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 24df865e-b50d-4a1e-a1ca-ee66b972682d
-[17:21:55] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID fad03da9-e6fa-4c01-a94c-af533b1b3f98
-[17:22:25] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID fad03da9-e6fa-4c01-a94c-af533b1b3f98
-[17:22:44] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Nepenthes: Nepenthes successfully healed Nepenthes's Pokémon!]
-[17:22:46] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [60, 157] in dimension 0 (overworld) while populating chunk [60, 158], causing cascading worldgen lag.
-[17:22:46] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[17:22:49] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID a01c170f-6ff6-44ee-9596-b0f93b407ae6
-[17:23:53] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Nepenthes: Nepenthes successfully healed Nepenthes's Pokémon!]
-[17:23:56] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 8f3080cf-e1f6-4704-94c3-5b22e689800d
-[17:24:18] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 8f3080cf-e1f6-4704-94c3-5b22e689800d
-[17:24:28] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID fad03da9-e6fa-4c01-a94c-af533b1b3f98
-[17:24:57] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID fad03da9-e6fa-4c01-a94c-af533b1b3f98
-[17:25:10] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID fad03da9-e6fa-4c01-a94c-af533b1b3f98
-[17:25:40] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 857c02cc-d2c4-467d-822a-25c5aabb69ba
-[17:25:50] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID fad03da9-e6fa-4c01-a94c-af533b1b3f98
-[17:26:18] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID fad03da9-e6fa-4c01-a94c-af533b1b3f98
-[17:26:51] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID fad03da9-e6fa-4c01-a94c-af533b1b3f98
-[17:27:00] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 24df865e-b50d-4a1e-a1ca-ee66b972682d
-[17:27:07] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Aurora moved too quickly! -0.25666536375547366,-13.751528111832457,-0.5107988226328075
-[17:27:42] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Flygon moved wrongly!
-[17:27:47] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID fad03da9-e6fa-4c01-a94c-af533b1b3f98
-[17:28:06] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 24df865e-b50d-4a1e-a1ca-ee66b972682d
-[17:28:25] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID fad03da9-e6fa-4c01-a94c-af533b1b3f98
-[17:28:35] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID fad03da9-e6fa-4c01-a94c-af533b1b3f98
-[17:28:41] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 857c02cc-d2c4-467d-822a-25c5aabb69ba
-[17:30:15] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Aurora: Teleported Aurora to Nepenthes]
-[17:30:51] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Nepenthes moved wrongly!
-[17:31:08] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID d48fbcb7-02a6-4820-bd52-e84f952ec75d
-[17:31:20] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Aurora moved too quickly! 0.899028574978729,-35.44323187278434,0.14768334276323003
-[17:31:36] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Flygon (vehicle of Nepenthes) moved too quickly! 9.28981902264411,9.80126199817333,-15.102057828024499
-[17:31:36] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Flygon (vehicle of Nepenthes) moved too quickly! 9.214636638367892,9.76370075344228,-14.998548165629927
-[17:31:36] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Flygon (vehicle of Nepenthes) moved too quickly! 9.153535128991507,9.708418932926648,-14.851523339085361
-[17:31:36] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Flygon (vehicle of Nepenthes) moved too quickly! 9.03276156214281,9.636118271096265,-14.665691688033348
-[17:31:36] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Flygon (vehicle of Nepenthes) moved too quickly! 8.892821593360736,9.547472713749087,-14.445252109888315
-[17:31:36] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Flygon (vehicle of Nepenthes) moved too quickly! 8.735789026841985,9.44312951844205,-14.193949181472362
-[17:32:00] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID fad03da9-e6fa-4c01-a94c-af533b1b3f98
-[17:32:15] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID fad03da9-e6fa-4c01-a94c-af533b1b3f98
-[17:33:10] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Nepenthes has made the advancement [Acquire Hardware]
-[17:33:14] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Nepenthes: Teleported Nepenthes to Aurora]
-[17:34:54] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Aurora: Teleported Aurora to Nepenthes]
-[17:35:41] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Nepenthes: Nepenthes successfully healed Nepenthes's Pokémon!]
-[17:35:48] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 857c02cc-d2c4-467d-822a-25c5aabb69ba
-[17:35:48] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 24df865e-b50d-4a1e-a1ca-ee66b972682d
-[17:36:58] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 24df865e-b50d-4a1e-a1ca-ee66b972682d
-[17:36:58] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Nepenthes fell out of the world
-[17:36:58] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Nepenthes: Killed Nepenthes]
-[17:37:05] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Aurora: Aurora successfully healed Aurora's Pokémon!]
-[17:37:34] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [30, 195] in dimension 0 (overworld) while populating chunk [30, 194], causing cascading worldgen lag.
-[17:37:34] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[17:37:54] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [28, 189] in dimension 0 (overworld) while populating chunk [28, 188], causing cascading worldgen lag.
-[17:37:54] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[17:37:54] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Nepenthes: Nepenthes successfully healed Nepenthes's Pokémon!]
-[17:38:05] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 857c02cc-d2c4-467d-822a-25c5aabb69ba
-[17:39:06] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID fad03da9-e6fa-4c01-a94c-af533b1b3f98
-[17:39:18] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID d48fbcb7-02a6-4820-bd52-e84f952ec75d
-[17:39:36] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID fad03da9-e6fa-4c01-a94c-af533b1b3f98
-[17:39:53] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Aurora: Aurora successfully healed Aurora's Pokémon!]
-[17:39:55] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID fad03da9-e6fa-4c01-a94c-af533b1b3f98
-[17:40:29] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID fad03da9-e6fa-4c01-a94c-af533b1b3f98
-[17:40:49] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 857c02cc-d2c4-467d-822a-25c5aabb69ba
-[17:40:59] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 24df865e-b50d-4a1e-a1ca-ee66b972682d
-[17:41:33] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 857c02cc-d2c4-467d-822a-25c5aabb69ba
-[17:41:36] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 24df865e-b50d-4a1e-a1ca-ee66b972682d
-[17:41:41] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 857c02cc-d2c4-467d-822a-25c5aabb69ba
-[17:41:50] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 857c02cc-d2c4-467d-822a-25c5aabb69ba
-[17:42:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Aurora: Aurora successfully healed Aurora's Pokémon!]
-[17:42:05] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 857c02cc-d2c4-467d-822a-25c5aabb69ba
-[17:42:13] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 857c02cc-d2c4-467d-822a-25c5aabb69ba
-[17:42:25] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Nepenthes: Nepenthes successfully healed Nepenthes's Pokémon!]
-[17:43:49] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 24df865e-b50d-4a1e-a1ca-ee66b972682d
-[17:44:04] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID fad03da9-e6fa-4c01-a94c-af533b1b3f98
-[17:44:24] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID fad03da9-e6fa-4c01-a94c-af533b1b3f98
-[17:45:07] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [106, 167] in dimension 0 (overworld) while populating chunk [107, 167], causing cascading worldgen lag.
-[17:45:07] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[17:45:07] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [106, 166] in dimension 0 (overworld) while populating chunk [107, 167], causing cascading worldgen lag.
-[17:45:07] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[17:45:27] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [107, 158] in dimension 0 (overworld) while populating chunk [108, 158], causing cascading worldgen lag.
-[17:45:27] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[17:45:33] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 857c02cc-d2c4-467d-822a-25c5aabb69ba
-[17:45:41] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Nepenthes moved too quickly! -1.134265232597727,-22.397235940572216,-1.4950295277544683
-[17:45:45] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 857c02cc-d2c4-467d-822a-25c5aabb69ba
-[17:45:58] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 24df865e-b50d-4a1e-a1ca-ee66b972682d
-[17:46:22] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Aurora: Teleported Aurora to Nepenthes]
-[17:46:52] [Server thread/INFO] [FML]: Loading dimension 72 (world) (net.minecraft.server.dedicated.DedicatedServer@1be831c4)
-[17:46:53] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Aurora moved too quickly! 7.982399549859338,1.5902172110263422,-7.197364491986264
-[17:47:00] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 4852ms behind, skipping 97 tick(s)
-[17:47:05] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Flygon (vehicle of Nepenthes) moved too quickly! 9.330170623889217,-4.976375205032667,3.7978698340557457
-[17:47:05] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Flygon (vehicle of Nepenthes) moved too quickly! 9.30444600198939,-4.732087196707525,3.8177667461213787
-[17:47:05] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Flygon (vehicle of Nepenthes) moved too quickly! 12.071139781171723,-5.5895683461127845,5.3177396619548745
-[17:47:17] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Flygon (vehicle of Nepenthes) moved too quickly! 3.6708111403611383,-2.0030260195263736,9.149222515379734
-[17:47:17] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Flygon (vehicle of Nepenthes) moved too quickly! 3.9123246494880277,-2.075708316057728,9.74323784758235
-[17:47:17] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Flygon (vehicle of Nepenthes) moved too quickly! 4.138255776128062,-2.1647203953788647,10.335999855311456
-[17:47:17] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Flygon (vehicle of Nepenthes) moved too quickly! 4.350290533665657,-2.2694155983965345,10.927644148241598
-[17:47:17] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Flygon (vehicle of Nepenthes) moved too quickly! 4.549932508880829,-2.3891728737055047,11.51829166308653
-[17:47:17] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Flygon (vehicle of Nepenthes) moved too quickly! 4.738522600502165,-2.52339576352459,12.108050251208624
-[17:47:17] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Flygon (vehicle of Nepenthes) moved too quickly! 4.917256622050672,-2.6715114297895752,12.697016094456558
-[17:47:17] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Flygon (vehicle of Nepenthes) moved too quickly! 5.08720100005462,-2.8329697188128904,13.28527496780589
-[17:47:17] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Flygon (vehicle of Nepenthes) moved too quickly! 5.249306773719809,-3.0072422629827003,13.872903365380807
-[17:47:17] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Flygon (vehicle of Nepenthes) moved too quickly! 5.4044220798341485,-3.1938216180347325,14.459969504644505
-[17:47:17] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Flygon (vehicle of Nepenthes) moved too quickly! 5.553303286807022,-3.3922204344880953,15.046534221931324
-[17:47:17] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Flygon (vehicle of Nepenthes) moved too quickly! 5.696624924005391,-3.60197066189221,15.632651771085875
-[17:47:26] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Flygon moved wrongly!
-[17:47:26] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Flygon moved wrongly!
-[17:47:32] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 857c02cc-d2c4-467d-822a-25c5aabb69ba
-[17:47:44] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 857c02cc-d2c4-467d-822a-25c5aabb69ba
-[17:48:03] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Vibrava (vehicle of Aurora) moved too quickly! -9.49615977612757,0.6399057883138255,4.076112108558846
-[17:48:04] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Vibrava (vehicle of Aurora) moved too quickly! -9.40353262464464,0.9361049590179675,4.1160651504496855
-[17:48:33] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Vibrava (vehicle of Aurora) moved too quickly! -9.99221342117994,8.296886834482436,-2.783130334800262
-[17:48:33] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Vibrava (vehicle of Aurora) moved too quickly! -9.933682661791863,8.408658582717187,-2.7750783247611253
-[17:48:33] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Vibrava (vehicle of Aurora) moved too quickly! -9.393718486958505,7.859858582717187,-2.6185288304186543
-[17:48:35] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [90, 296] in dimension 0 (overworld) while populating chunk [89, 296], causing cascading worldgen lag.
-[17:48:35] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[17:48:40] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Flygon (vehicle of Nepenthes) moved too quickly! -10.70941387462426,8.55086656846612,-5.483631176474773
-[17:48:40] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Flygon (vehicle of Nepenthes) moved too quickly! -10.66126519448062,8.774967861173096,-5.457205557269845
-[17:48:40] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Flygon (vehicle of Nepenthes) moved too quickly! -10.149125884999194,8.242705361173094,-5.1954688037330925
-[17:48:45] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Flygon moved wrongly!
-[17:49:01] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Nepenthes: Nepenthes successfully healed Nepenthes's Pokémon!]
-[17:49:01] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Vibrava (vehicle of Aurora) moved too quickly! -9.428299793973565,-3.0978565601541774,-2.593842651023806
-[17:49:02] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Vibrava (vehicle of Aurora) moved too quickly! -9.408916222391099,-2.8763845916998676,-2.55132752913687
-[17:49:02] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Vibrava (vehicle of Aurora) moved too quickly! -9.414051193627301,-2.911497692394825,-2.5493710898526842
-[17:49:06] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2045ms behind, skipping 40 tick(s)
-[17:49:07] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [111, 278] in dimension 72 (ultra_space) while populating chunk [111, 277], causing cascading worldgen lag.
-[17:49:07] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[17:49:07] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [111, 280] in dimension 72 (ultra_space) while populating chunk [111, 279], causing cascading worldgen lag.
-[17:49:07] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[17:49:09] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID fad03da9-e6fa-4c01-a94c-af533b1b3f98
-[17:49:17] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID fad03da9-e6fa-4c01-a94c-af533b1b3f98
-[17:49:25] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [113, 258] in dimension 72 (ultra_space) while populating chunk [114, 259], causing cascading worldgen lag.
-[17:49:25] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[17:49:26] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [96, 259] in dimension 72 (ultra_space) while populating chunk [97, 258], causing cascading worldgen lag.
-[17:49:26] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[17:49:27] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Vibrava (vehicle of Aurora) moved too quickly! -5.795771515802926,-0.502925618811787,9.269302979414533
-[17:49:27] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [98, 257] in dimension 72 (ultra_space) while populating chunk [97, 257], causing cascading worldgen lag.
-[17:49:27] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[17:49:27] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Vibrava (vehicle of Aurora) moved too quickly! -5.602171540725976,-0.7951581236731329,8.834968426653177
-[17:49:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Pixelmon] Volcanion has appeared in a den in a Desert biome!
-[17:49:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Spawned Volcanion at: world x:1825, y:87, z:4145
-[17:50:11] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Vibrava (vehicle of Aurora) moved too quickly! -4.410536200861998,5.521320468597011,7.174384936001843
-[17:50:11] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Flygon (vehicle of Nepenthes) moved too quickly! -7.617400811348261,6.12488892160674,5.3096691516166175
-[17:50:11] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Vibrava (vehicle of Aurora) moved too quickly! -4.394887223787009,5.653590741521839,7.149058517851699
-[17:50:11] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Flygon (vehicle of Nepenthes) moved too quickly! -7.588234429882505,6.159307551368499,5.291390776638764
-[17:50:11] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Flygon (vehicle of Nepenthes) moved too quickly! -7.0814775746248415,5.648972551368502,4.93592330167121
-[17:50:17] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 4426ms behind, skipping 88 tick(s)
-[17:50:17] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Flygon (vehicle of Nepenthes) moved too quickly! -10.919684582510627,7.450214262858751,-1.9294518694177896
-[17:50:17] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Flygon (vehicle of Nepenthes) moved too quickly! -10.29099442060783,6.988144262858754,-1.8175898672716357
-[17:50:18] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Flygon (vehicle of Nepenthes) moved too quickly! -10.287372176728013,7.016985955412537,-1.8171120355918902
-[17:50:18] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Vibrava (vehicle of Aurora) moved too quickly! 4.295622615564298,4.7656335824744644,-10.531517976379291
-[17:50:18] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Vibrava (vehicle of Aurora) moved too quickly! 4.298994167648743,4.749966208579778,-10.527196222253224
-[17:50:18] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Vibrava (vehicle of Aurora) moved too quickly! 4.02907078226508,4.394046763652611,-10.095693932048562
-[17:50:18] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Vibrava (vehicle of Aurora) moved too quickly! 3.7500209508561966,4.0330137217178645,-9.664345435393443
-[17:50:18] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Vibrava (vehicle of Aurora) moved too quickly! 3.4520025904632803,3.667069581121453,-9.2447695257124
-[17:50:43] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 24df865e-b50d-4a1e-a1ca-ee66b972682d
-[17:51:40] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Nepenthes blew up
-[17:52:36] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Nepenthes has made the advancement [Stone Age]
-[17:52:39] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Aurora: Aurora successfully healed Aurora's Pokémon!]
-[17:52:49] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2695ms behind, skipping 53 tick(s)
-[17:52:49] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Vibrava (vehicle of Aurora) moved too quickly! -11.91745152056842,8.205339855231983,-2.0713257354627785
-[17:52:49] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Vibrava (vehicle of Aurora) moved too quickly! -11.845714362985973,8.330194558333602,-2.0705730422005217
-[17:52:51] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Vibrava (vehicle of Aurora) moved too quickly! -11.744062935670172,7.3321523063908955,-2.3379754494544613
-[17:52:51] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Vibrava (vehicle of Aurora) moved too quickly! -11.679863820167157,7.462265502215168,-2.3252836363717506
-[17:52:52] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Vibrava (vehicle of Aurora) moved too quickly! -10.5259453229055,7.825985579662323,-2.098895224710759
-[17:52:52] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Vibrava (vehicle of Aurora) moved too quickly! -10.466463111934445,7.920412641855535,-2.087052986326853
-[17:52:57] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Vibrava (vehicle of Aurora) moved too quickly! -1.7868764948375429,2.0350198664371,-10.935763380969547
-[17:52:57] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Vibrava (vehicle of Aurora) moved too quickly! -1.7724217426314226,2.2996489733175522,-10.863763480193484
-[17:53:00] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Vibrava (vehicle of Aurora) moved too quickly! -2.2033471402512532,1.795891200723414,-9.993850920029217
-[17:53:32] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 857c02cc-d2c4-467d-822a-25c5aabb69ba
-[17:53:37] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Aurora: Set game difficulty to Peaceful]
-[17:53:46] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 857c02cc-d2c4-467d-822a-25c5aabb69ba
-[17:54:00] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Aurora has made the advancement [Monster Hunter]
-[17:54:03] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID fad03da9-e6fa-4c01-a94c-af533b1b3f98
-[17:54:43] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Nepenthes: Nepenthes successfully healed Nepenthes's Pokémon!]
-[17:55:14] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Flygon moved wrongly!
-[17:55:31] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 857c02cc-d2c4-467d-822a-25c5aabb69ba
-[17:55:48] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [138, 270] in dimension 72 (ultra_space) while populating chunk [137, 270], causing cascading worldgen lag.
-[17:55:48] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[17:55:48] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [137, 271] in dimension 72 (ultra_space) while populating chunk [137, 270], causing cascading worldgen lag.
-[17:55:48] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[17:55:48] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [138, 271] in dimension 72 (ultra_space) while populating chunk [137, 270], causing cascading worldgen lag.
-[17:55:48] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[17:55:58] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID fad03da9-e6fa-4c01-a94c-af533b1b3f98
-[17:56:01] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [137, 252] in dimension 72 (ultra_space) while populating chunk [137, 253], causing cascading worldgen lag.
-[17:56:01] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[17:56:09] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [141, 250] in dimension 72 (ultra_space) while populating chunk [141, 251], causing cascading worldgen lag.
-[17:56:09] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[17:56:09] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [81, 321] in dimension 0 (overworld) while populating chunk [81, 320], causing cascading worldgen lag.
-[17:56:09] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[17:56:09] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [82, 321] in dimension 0 (overworld) while populating chunk [81, 321], causing cascading worldgen lag.
-[17:56:09] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[17:56:09] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [81, 322] in dimension 0 (overworld) while populating chunk [81, 321], causing cascading worldgen lag.
-[17:56:09] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[17:56:09] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [82, 322] in dimension 0 (overworld) while populating chunk [81, 321], causing cascading worldgen lag.
-[17:56:09] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[17:56:10] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [84, 321] in dimension 0 (overworld) while populating chunk [83, 321], causing cascading worldgen lag.
-[17:56:10] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[17:56:10] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [85, 321] in dimension 0 (overworld) while populating chunk [83, 321], causing cascading worldgen lag.
-[17:56:10] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[17:56:10] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [83, 322] in dimension 0 (overworld) while populating chunk [83, 321], causing cascading worldgen lag.
-[17:56:10] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[17:56:10] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [84, 322] in dimension 0 (overworld) while populating chunk [83, 321], causing cascading worldgen lag.
-[17:56:10] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[17:56:10] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [85, 322] in dimension 0 (overworld) while populating chunk [83, 321], causing cascading worldgen lag.
-[17:56:10] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[17:56:10] [Server thread/INFO] [Pixelmon]: Gym spawned at 1338 63 5151
-[17:56:16] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [105, 326] in dimension 0 (overworld) while populating chunk [104, 325], causing cascading worldgen lag.
-[17:56:16] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[17:56:16] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [106, 326] in dimension 0 (overworld) while populating chunk [105, 326], causing cascading worldgen lag.
-[17:56:16] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[17:56:16] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [105, 327] in dimension 0 (overworld) while populating chunk [105, 326], causing cascading worldgen lag.
-[17:56:16] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[17:56:16] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [106, 327] in dimension 0 (overworld) while populating chunk [105, 326], causing cascading worldgen lag.
-[17:56:16] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[17:56:16] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [105, 325] in dimension 0 (overworld) while populating chunk [104, 325], causing cascading worldgen lag.
-[17:56:16] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[17:56:16] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [104, 326] in dimension 0 (overworld) while populating chunk [104, 325], causing cascading worldgen lag.
-[17:56:16] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[17:56:17] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [106, 325] in dimension 0 (overworld) while populating chunk [105, 324], causing cascading worldgen lag.
-[17:56:17] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[17:56:17] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [106, 324] in dimension 0 (overworld) while populating chunk [105, 324], causing cascading worldgen lag.
-[17:56:17] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[17:56:17] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [107, 324] in dimension 0 (overworld) while populating chunk [106, 324], causing cascading worldgen lag.
-[17:56:17] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[17:56:17] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [106, 323] in dimension 0 (overworld) while populating chunk [105, 323], causing cascading worldgen lag.
-[17:56:17] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[17:56:19] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [107, 323] in dimension 0 (overworld) while populating chunk [106, 322], causing cascading worldgen lag.
-[17:56:19] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[17:56:19] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [107, 322] in dimension 0 (overworld) while populating chunk [106, 322], causing cascading worldgen lag.
-[17:56:19] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[17:56:19] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [108, 322] in dimension 0 (overworld) while populating chunk [106, 322], causing cascading worldgen lag.
-[17:56:19] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[17:56:19] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [108, 323] in dimension 0 (overworld) while populating chunk [106, 322], causing cascading worldgen lag.
-[17:56:19] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[17:56:19] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [107, 321] in dimension 0 (overworld) while populating chunk [106, 321], causing cascading worldgen lag.
-[17:56:19] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[17:56:21] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [108, 324] in dimension 0 (overworld) while populating chunk [107, 325], causing cascading worldgen lag.
-[17:56:21] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[17:56:21] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [108, 325] in dimension 0 (overworld) while populating chunk [107, 325], causing cascading worldgen lag.
-[17:56:21] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[17:56:21] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [109, 325] in dimension 0 (overworld) while populating chunk [107, 325], causing cascading worldgen lag.
-[17:56:21] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[17:56:21] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [107, 326] in dimension 0 (overworld) while populating chunk [107, 325], causing cascading worldgen lag.
-[17:56:21] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[17:56:21] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [108, 326] in dimension 0 (overworld) while populating chunk [107, 325], causing cascading worldgen lag.
-[17:56:21] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[17:56:21] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [109, 326] in dimension 0 (overworld) while populating chunk [107, 325], causing cascading worldgen lag.
-[17:56:21] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[17:56:21] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [107, 327] in dimension 0 (overworld) while populating chunk [107, 325], causing cascading worldgen lag.
-[17:56:21] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[17:56:21] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [108, 327] in dimension 0 (overworld) while populating chunk [107, 325], causing cascading worldgen lag.
-[17:56:21] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[17:56:21] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [109, 327] in dimension 0 (overworld) while populating chunk [107, 325], causing cascading worldgen lag.
-[17:56:21] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[17:56:22] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [109, 321] in dimension 0 (overworld) while populating chunk [108, 321], causing cascading worldgen lag.
-[17:56:22] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[17:56:23] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [109, 322] in dimension 0 (overworld) while populating chunk [108, 321], causing cascading worldgen lag.
-[17:56:23] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[17:56:23] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [109, 324] in dimension 0 (overworld) while populating chunk [108, 321], causing cascading worldgen lag.
-[17:56:23] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[17:56:23] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [109, 323] in dimension 0 (overworld) while populating chunk [108, 321], causing cascading worldgen lag.
-[17:56:23] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[17:56:26] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [111, 321] in dimension 0 (overworld) while populating chunk [110, 321], causing cascading worldgen lag.
-[17:56:26] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[17:56:26] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [110, 323] in dimension 0 (overworld) while populating chunk [110, 322], causing cascading worldgen lag.
-[17:56:26] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[17:56:26] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [110, 325] in dimension 0 (overworld) while populating chunk [110, 324], causing cascading worldgen lag.
-[17:56:26] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[17:56:26] [Server thread/INFO] [Pixelmon]: Gym spawned at 1764 63 5192
-[17:56:29] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [113, 318] in dimension 0 (overworld) while populating chunk [112, 318], causing cascading worldgen lag.
-[17:56:29] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[17:56:29] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [113, 319] in dimension 0 (overworld) while populating chunk [112, 318], causing cascading worldgen lag.
-[17:56:29] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[17:57:35] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 857c02cc-d2c4-467d-822a-25c5aabb69ba
-[17:58:12] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Aurora fell out of the world
-[17:58:12] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Aurora: Killed Aurora]
-[17:58:16] [Server thread/INFO] [FML]: Unloading dimension 72
-[17:58:19] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Aurora: Teleported Aurora to Nepenthes]
-[17:58:54] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Nepenthes: Teleported Nepenthes to Aurora]
-[17:59:11] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 24df865e-b50d-4a1e-a1ca-ee66b972682d
-[17:59:11] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 857c02cc-d2c4-467d-822a-25c5aabb69ba
-[18:00:43] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Nepenthes: Nepenthes successfully healed Nepenthes's Pokémon!]
-[18:00:50] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [128, 332] in dimension 0 (overworld) while populating chunk [128, 331], causing cascading worldgen lag.
-[18:00:50] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[18:00:51] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 24df865e-b50d-4a1e-a1ca-ee66b972682d
-[18:01:06] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 24df865e-b50d-4a1e-a1ca-ee66b972682d
-[18:01:21] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [116, 311] in dimension 0 (overworld) while populating chunk [116, 312], causing cascading worldgen lag.
-[18:01:21] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[18:01:24] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID fad03da9-e6fa-4c01-a94c-af533b1b3f98
-[18:02:08] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Nepenthes: Teleported Nepenthes to Aurora]
-[18:02:43] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Aurora fell out of the world
-[18:02:43] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Aurora: Killed Aurora]
-[18:03:00] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 2eda9e8a-f1c9-4709-b285-8e86cea4317f
-[18:03:32] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 8f3080cf-e1f6-4704-94c3-5b22e689800d
-[18:03:49] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Aurora: Aurora successfully healed Aurora's Pokémon!]
-[18:04:07] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Nepenthes: Nepenthes successfully healed Nepenthes's Pokémon!]
-[18:04:09] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 8f3080cf-e1f6-4704-94c3-5b22e689800d
-[18:04:13] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 24df865e-b50d-4a1e-a1ca-ee66b972682d
-[18:04:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Aurora: Aurora successfully healed Aurora's Pokémon!]
-[18:04:57] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 24df865e-b50d-4a1e-a1ca-ee66b972682d
-[18:05:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Nepenthes: Nepenthes successfully healed Nepenthes's Pokémon!]
-[18:05:30] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 8f3080cf-e1f6-4704-94c3-5b22e689800d
-[18:05:42] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Aurora: Aurora successfully healed Aurora's Pokémon!]
-[18:05:54] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 24df865e-b50d-4a1e-a1ca-ee66b972682d
-[18:06:32] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Aurora: Aurora successfully healed Aurora's Pokémon!]
-[18:06:33] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 24df865e-b50d-4a1e-a1ca-ee66b972682d
-[18:06:55] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Nepenthes: Nepenthes successfully healed Nepenthes's Pokémon!]
-[18:07:00] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 24df865e-b50d-4a1e-a1ca-ee66b972682d
-[18:07:00] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 8f3080cf-e1f6-4704-94c3-5b22e689800d
-[18:07:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Aurora: Aurora successfully healed Aurora's Pokémon!]
-[18:07:16] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 24df865e-b50d-4a1e-a1ca-ee66b972682d
-[18:07:37] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Aurora: Aurora successfully healed Aurora's Pokémon!]
-[18:07:37] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 24df865e-b50d-4a1e-a1ca-ee66b972682d
-[18:08:02] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Nepenthes: Nepenthes successfully healed Nepenthes's Pokémon!]
-[18:08:07] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Aurora: Aurora successfully healed Aurora's Pokémon!]
-[18:08:07] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 24df865e-b50d-4a1e-a1ca-ee66b972682d
-[18:08:56] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Aurora: Aurora successfully healed Aurora's Pokémon!]
-[18:08:56] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 24df865e-b50d-4a1e-a1ca-ee66b972682d
-[18:09:42] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Aurora: Aurora successfully healed Aurora's Pokémon!]
-[18:09:42] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 24df865e-b50d-4a1e-a1ca-ee66b972682d
-[18:10:33] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Aurora: Aurora successfully healed Aurora's Pokémon!]
-[18:10:51] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 24df865e-b50d-4a1e-a1ca-ee66b972682d
-[18:10:52] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID fad03da9-e6fa-4c01-a94c-af533b1b3f98
-[18:11:03] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID fad03da9-e6fa-4c01-a94c-af533b1b3f98
-[18:11:21] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID fad03da9-e6fa-4c01-a94c-af533b1b3f98
-[18:11:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Aurora: Aurora successfully healed Aurora's Pokémon!]
-[18:11:23] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 24df865e-b50d-4a1e-a1ca-ee66b972682d
-[18:11:29] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID fad03da9-e6fa-4c01-a94c-af533b1b3f98
-[18:11:44] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID fad03da9-e6fa-4c01-a94c-af533b1b3f98
-[18:11:56] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 24df865e-b50d-4a1e-a1ca-ee66b972682d
-[18:11:58] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID fad03da9-e6fa-4c01-a94c-af533b1b3f98
-[18:12:13] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Aurora: Aurora successfully healed Aurora's Pokémon!]
-[18:12:17] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 24df865e-b50d-4a1e-a1ca-ee66b972682d
-[18:12:18] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID fad03da9-e6fa-4c01-a94c-af533b1b3f98
-[18:12:34] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID fad03da9-e6fa-4c01-a94c-af533b1b3f98
-[18:12:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Aurora: Aurora successfully healed Aurora's Pokémon!]
-[18:12:57] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 24df865e-b50d-4a1e-a1ca-ee66b972682d
-[18:13:03] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 857c02cc-d2c4-467d-822a-25c5aabb69ba
-[18:13:13] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 7ecfec21-7444-43cd-85ef-8a66988f9a05
-[18:13:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Aurora: Teleported Aurora to Nepenthes]
-[18:13:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Aurora: Aurora successfully healed Aurora's Pokémon!]
-[18:13:56] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Nepenthes: Nepenthes successfully healed Nepenthes's Pokémon!]
-[18:13:57] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 2eda9e8a-f1c9-4709-b285-8e86cea4317f
-[18:14:09] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 857c02cc-d2c4-467d-822a-25c5aabb69ba
-[18:14:22] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Aurora: Aurora successfully healed Aurora's Pokémon!]
-[18:14:23] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Nepenthes moved too quickly! 0.9456002895335587,-31.01672482186501,-0.910924417541537
-[18:14:34] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 2eda9e8a-f1c9-4709-b285-8e86cea4317f
-[18:14:37] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID fad03da9-e6fa-4c01-a94c-af533b1b3f98
-[18:14:46] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID fad03da9-e6fa-4c01-a94c-af533b1b3f98
-[18:14:49] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID fad03da9-e6fa-4c01-a94c-af533b1b3f98
-[18:15:06] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID fad03da9-e6fa-4c01-a94c-af533b1b3f98
-[18:15:38] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Aurora: Aurora successfully healed Aurora's Pokémon!]
-[18:15:40] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 2eda9e8a-f1c9-4709-b285-8e86cea4317f
-[18:15:51] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [116, 379] in dimension 0 (overworld) while populating chunk [117, 379], causing cascading worldgen lag.
-[18:15:51] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[18:15:56] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Aurora: Aurora successfully healed Aurora's Pokémon!]
-[18:16:13] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Flygon moved wrongly!
-[18:16:28] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 24df865e-b50d-4a1e-a1ca-ee66b972682d
-[18:16:44] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Aurora: Aurora successfully healed Aurora's Pokémon!]
-[18:16:48] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 2eda9e8a-f1c9-4709-b285-8e86cea4317f
-[18:17:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Aurora: Aurora successfully healed Aurora's Pokémon!]
-[18:17:06] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 2eda9e8a-f1c9-4709-b285-8e86cea4317f
-[18:17:19] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 24df865e-b50d-4a1e-a1ca-ee66b972682d
-[18:17:26] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID fad03da9-e6fa-4c01-a94c-af533b1b3f98
-[18:17:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Aurora: Aurora successfully healed Aurora's Pokémon!]
-[18:17:29] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 2eda9e8a-f1c9-4709-b285-8e86cea4317f
-[18:17:37] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID fad03da9-e6fa-4c01-a94c-af533b1b3f98
-[18:17:42] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Aurora: Aurora successfully healed Aurora's Pokémon!]
-[18:17:49] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 2eda9e8a-f1c9-4709-b285-8e86cea4317f
-[18:17:58] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Flygon (vehicle of Nepenthes) moved too quickly! -13.843316322105693,8.622458342940675,-6.582637406700087
-[18:17:58] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Flygon (vehicle of Nepenthes) moved too quickly! -13.729537494558599,8.584897098209623,-6.526331207401199
-[18:17:58] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Flygon (vehicle of Nepenthes) moved too quickly! -13.56792637538797,8.529615277693992,-6.453630147798322
-[18:17:58] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Flygon (vehicle of Nepenthes) moved too quickly! -13.36365841731822,8.45731461586361,-6.366308151355042
-[18:17:58] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Flygon (vehicle of Nepenthes) moved too quickly! -13.121349089221894,8.368669058516431,-6.265947203061842
-[18:17:58] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Flygon (vehicle of Nepenthes) moved too quickly! -12.845114466358154,8.264325863209393,-6.153958117173715
-[18:17:58] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Flygon (vehicle of Nepenthes) moved too quickly! -12.538625264748816,8.144906656112283,-6.0315990578801575
-[18:17:58] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Flygon (vehicle of Nepenthes) moved too quickly! -12.205155029036632,8.011008447010198,-5.8999920560363535
-[18:17:58] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Flygon (vehicle of Nepenthes) moved too quickly! -11.847623106418041,7.8632046041118855,-5.760137738789126
-[18:17:58] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Flygon (vehicle of Nepenthes) moved too quickly! -11.468632970797898,7.702045790255752,-5.633510502189893
-[18:17:58] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Flygon (vehicle of Nepenthes) moved too quickly! -11.07050640027137,7.528060862042096,-5.479742078824529
-[18:17:58] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Flygon (vehicle of Nepenthes) moved too quickly! -10.655139028147005,7.341757733359742,-5.32059771949298
-[18:18:45] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 24df865e-b50d-4a1e-a1ca-ee66b972682d
-[18:19:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Aurora: Teleported Aurora to Nepenthes]
-[18:19:07] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Aurora: Aurora successfully healed Aurora's Pokémon!]
-[18:19:19] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 7ecfec21-7444-43cd-85ef-8a66988f9a05
-[18:19:19] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 24df865e-b50d-4a1e-a1ca-ee66b972682d
-[18:21:49] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 857c02cc-d2c4-467d-822a-25c5aabb69ba
-[18:22:04] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Flygon (vehicle of Nepenthes) moved too quickly! -9.813909194238477,-1.2249301432316457,-5.646299482030372
-[18:22:04] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Flygon (vehicle of Nepenthes) moved too quickly! -9.781866227283444,-1.1869551432316428,-5.606511096078066
-[18:22:24] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID fad03da9-e6fa-4c01-a94c-af533b1b3f98
-[18:22:38] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Pixelmon] Lunala has appeared in a den in a Plains biome!
-[18:22:38] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Spawned Lunala at: world x:1838, y:66, z:181
-[18:22:38] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Pixelmon] Kubfu has appeared in a den in a Roofed Forest biome!
-[18:22:38] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Spawned Kubfu at: world x:1916, y:64, z:80
-[18:23:06] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Nepenthes: Teleported Nepenthes to Aurora]
-[18:23:45] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 7ecfec21-7444-43cd-85ef-8a66988f9a05
-[18:23:45] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 24df865e-b50d-4a1e-a1ca-ee66b972682d
-[18:26:20] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 857c02cc-d2c4-467d-822a-25c5aabb69ba
-[18:26:29] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 857c02cc-d2c4-467d-822a-25c5aabb69ba
-[18:26:29] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Aurora: Aurora successfully healed Aurora's Pokémon!]
-[18:26:32] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 857c02cc-d2c4-467d-822a-25c5aabb69ba
-[18:26:43] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Nepenthes: Nepenthes successfully healed Nepenthes's Pokémon!]
-[18:30:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Nepenthes: Teleported Nepenthes to 10000.5, 80.0, 10000.5]
-[18:31:38] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Aurora: Teleported Aurora to -8519.5, 100.0, -5671.5]
-[18:31:39] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID fad03da9-e6fa-4c01-a94c-af533b1b3f98
-[18:31:42] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2586ms behind, skipping 51 tick(s)
-[18:32:01] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID fad03da9-e6fa-4c01-a94c-af533b1b3f98
-[18:32:33] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID fad03da9-e6fa-4c01-a94c-af533b1b3f98
-[18:32:42] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Nepenthes: Nepenthes successfully healed Nepenthes's Pokémon!]
-[18:32:51] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [-526, -345] in dimension 0 (overworld) while populating chunk [-527, -345], causing cascading worldgen lag.
-[18:32:51] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[18:32:51] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [-526, -344] in dimension 0 (overworld) while populating chunk [-526, -345], causing cascading worldgen lag.
-[18:32:51] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[18:32:51] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [-526, -343] in dimension 0 (overworld) while populating chunk [-526, -344], causing cascading worldgen lag.
-[18:32:51] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[18:32:51] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [-526, -342] in dimension 0 (overworld) while populating chunk [-526, -343], causing cascading worldgen lag.
-[18:32:51] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[18:32:51] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [-525, -345] in dimension 0 (overworld) while populating chunk [-526, -345], causing cascading worldgen lag.
-[18:32:51] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[18:32:51] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [-524, -345] in dimension 0 (overworld) while populating chunk [-526, -345], causing cascading worldgen lag.
-[18:32:51] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[18:32:51] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [-525, -344] in dimension 0 (overworld) while populating chunk [-526, -345], causing cascading worldgen lag.
-[18:32:51] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[18:32:51] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [-524, -344] in dimension 0 (overworld) while populating chunk [-526, -345], causing cascading worldgen lag.
-[18:32:51] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[18:32:51] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [-527, -344] in dimension 0 (overworld) while populating chunk [-527, -345], causing cascading worldgen lag.
-[18:32:51] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[18:32:58] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Nepenthes moved wrongly!
-[18:33:07] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID fad03da9-e6fa-4c01-a94c-af533b1b3f98
-[18:33:16] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 857c02cc-d2c4-467d-822a-25c5aabb69ba
-[18:33:31] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Flygon moved wrongly!
-[18:33:36] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID fad03da9-e6fa-4c01-a94c-af533b1b3f98
-[18:33:59] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Aurora: Teleported Aurora to -7499.5, 90.0, -7499.5]
-[18:34:04] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2087ms behind, skipping 41 tick(s)
-[18:34:08] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [636, 604] in dimension 0 (overworld) while populating chunk [636, 605], causing cascading worldgen lag.
-[18:34:08] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[18:34:08] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Flygon (vehicle of Nepenthes) moved too quickly! -3.623946622148651,8.160306710760679,-8.155412832869843
-[18:34:08] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Flygon (vehicle of Nepenthes) moved too quickly! -5.049275281864539,7.703136710760674,-8.622614968840935
-[18:34:11] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 857c02cc-d2c4-467d-822a-25c5aabb69ba
-[18:34:26] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID fad03da9-e6fa-4c01-a94c-af533b1b3f98
-[18:34:39] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Aurora drowned
-[18:34:48] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID fad03da9-e6fa-4c01-a94c-af533b1b3f98
-[18:34:59] [Server thread/INFO] [Pixelmon]: Bad TileEntity BlockPos{x=10584, y=98, z=9858} expected TileEntityBerryTree got TileEntityGracidea
-[18:35:06] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [666, 606] in dimension 0 (overworld) while populating chunk [666, 605], causing cascading worldgen lag.
-[18:35:06] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[18:35:19] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Aurora: Teleported Aurora to Nepenthes]
-[18:35:31] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 7ecfec21-7444-43cd-85ef-8a66988f9a05
-[18:35:31] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 24df865e-b50d-4a1e-a1ca-ee66b972682d
-[18:36:35] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Xerneas moved wrongly!
-[18:36:35] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID fad03da9-e6fa-4c01-a94c-af533b1b3f98
-[18:36:37] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Xerneas moved wrongly!
-[18:36:37] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Xerneas moved wrongly!
-[18:36:37] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Xerneas moved wrongly!
-[18:36:41] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Xerneas moved wrongly!
-[18:36:44] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 857c02cc-d2c4-467d-822a-25c5aabb69ba
-[18:36:53] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 24df865e-b50d-4a1e-a1ca-ee66b972682d
-[18:37:07] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID fad03da9-e6fa-4c01-a94c-af533b1b3f98
-[18:37:38] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID fad03da9-e6fa-4c01-a94c-af533b1b3f98
-[18:39:14] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 857c02cc-d2c4-467d-822a-25c5aabb69ba
-[18:40:16] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Aurora: Teleported Aurora to 2000.5, 90.0, 1000.5]
-[18:40:23] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [134, 68] in dimension 0 (overworld) while populating chunk [134, 67], causing cascading worldgen lag.
-[18:40:23] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[18:40:23] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [135, 68] in dimension 0 (overworld) while populating chunk [134, 68], causing cascading worldgen lag.
-[18:40:23] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[18:40:23] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [133, 69] in dimension 0 (overworld) while populating chunk [134, 68], causing cascading worldgen lag.
-[18:40:23] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[18:40:23] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [134, 69] in dimension 0 (overworld) while populating chunk [134, 68], causing cascading worldgen lag.
-[18:40:23] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[18:40:23] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [135, 69] in dimension 0 (overworld) while populating chunk [134, 68], causing cascading worldgen lag.
-[18:40:23] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[18:40:23] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [135, 67] in dimension 0 (overworld) while populating chunk [134, 67], causing cascading worldgen lag.
-[18:40:23] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[18:40:23] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [134, 70] in dimension 0 (overworld) while populating chunk [133, 70], causing cascading worldgen lag.
-[18:40:23] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[18:40:23] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [132, 71] in dimension 0 (overworld) while populating chunk [133, 70], causing cascading worldgen lag.
-[18:40:23] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[18:40:23] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [133, 71] in dimension 0 (overworld) while populating chunk [133, 70], causing cascading worldgen lag.
-[18:40:23] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[18:40:23] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [134, 71] in dimension 0 (overworld) while populating chunk [133, 70], causing cascading worldgen lag.
-[18:40:23] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[18:40:23] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [133, 72] in dimension 0 (overworld) while populating chunk [133, 70], causing cascading worldgen lag.
-[18:40:23] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[18:40:23] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [134, 72] in dimension 0 (overworld) while populating chunk [133, 70], causing cascading worldgen lag.
-[18:40:23] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[18:40:23] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [133, 73] in dimension 0 (overworld) while populating chunk [133, 70], causing cascading worldgen lag.
-[18:40:23] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[18:40:23] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [134, 73] in dimension 0 (overworld) while populating chunk [133, 70], causing cascading worldgen lag.
-[18:40:23] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[18:40:23] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 3025ms behind, skipping 60 tick(s)
-[18:40:29] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [136, 66] in dimension 0 (overworld) while populating chunk [135, 66], causing cascading worldgen lag.
-[18:40:29] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[18:40:29] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [137, 66] in dimension 0 (overworld) while populating chunk [136, 66], causing cascading worldgen lag.
-[18:40:29] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[18:40:29] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [136, 67] in dimension 0 (overworld) while populating chunk [135, 66], causing cascading worldgen lag.
-[18:40:29] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[18:40:29] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [136, 68] in dimension 0 (overworld) while populating chunk [135, 66], causing cascading worldgen lag.
-[18:40:29] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[18:40:29] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [136, 69] in dimension 0 (overworld) while populating chunk [135, 66], causing cascading worldgen lag.
-[18:40:29] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[18:40:29] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [136, 65] in dimension 0 (overworld) while populating chunk [135, 65], causing cascading worldgen lag.
-[18:40:29] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[18:40:29] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [137, 65] in dimension 0 (overworld) while populating chunk [135, 65], causing cascading worldgen lag.
-[18:40:29] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[18:40:29] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [138, 65] in dimension 0 (overworld) while populating chunk [135, 65], causing cascading worldgen lag.
-[18:40:29] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[18:40:29] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [138, 66] in dimension 0 (overworld) while populating chunk [135, 65], causing cascading worldgen lag.
-[18:40:29] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[18:40:29] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [136, 70] in dimension 0 (overworld) while populating chunk [135, 70], causing cascading worldgen lag.
-[18:40:29] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[18:40:29] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [135, 71] in dimension 0 (overworld) while populating chunk [135, 70], causing cascading worldgen lag.
-[18:40:29] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[18:40:29] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [136, 71] in dimension 0 (overworld) while populating chunk [135, 70], causing cascading worldgen lag.
-[18:40:29] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[18:40:32] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [123, 50] in dimension 0 (overworld) while populating chunk [124, 50], causing cascading worldgen lag.
-[18:40:32] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[18:40:33] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [138, 67] in dimension 0 (overworld) while populating chunk [137, 67], causing cascading worldgen lag.
-[18:40:33] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[18:40:33] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [137, 68] in dimension 0 (overworld) while populating chunk [137, 67], causing cascading worldgen lag.
-[18:40:33] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[18:40:33] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [138, 68] in dimension 0 (overworld) while populating chunk [137, 67], causing cascading worldgen lag.
-[18:40:33] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[18:40:34] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [137, 69] in dimension 0 (overworld) while populating chunk [137, 67], causing cascading worldgen lag.
-[18:40:34] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[18:40:34] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [138, 69] in dimension 0 (overworld) while populating chunk [137, 67], causing cascading worldgen lag.
-[18:40:34] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[18:40:36] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [139, 70] in dimension 0 (overworld) while populating chunk [138, 70], causing cascading worldgen lag.
-[18:40:36] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[18:40:36] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [138, 71] in dimension 0 (overworld) while populating chunk [138, 70], causing cascading worldgen lag.
-[18:40:36] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[18:40:36] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [139, 71] in dimension 0 (overworld) while populating chunk [138, 70], causing cascading worldgen lag.
-[18:40:36] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[18:40:38] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [140, 65] in dimension 0 (overworld) while populating chunk [139, 65], causing cascading worldgen lag.
-[18:40:38] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[18:40:38] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [141, 65] in dimension 0 (overworld) while populating chunk [139, 65], causing cascading worldgen lag.
-[18:40:38] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[18:40:38] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [139, 66] in dimension 0 (overworld) while populating chunk [139, 65], causing cascading worldgen lag.
-[18:40:38] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[18:40:38] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [140, 66] in dimension 0 (overworld) while populating chunk [139, 65], causing cascading worldgen lag.
-[18:40:38] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[18:40:38] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [141, 66] in dimension 0 (overworld) while populating chunk [139, 65], causing cascading worldgen lag.
-[18:40:38] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[18:40:38] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [139, 69] in dimension 0 (overworld) while populating chunk [139, 67], causing cascading worldgen lag.
-[18:40:38] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[18:40:38] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [139, 68] in dimension 0 (overworld) while populating chunk [139, 67], causing cascading worldgen lag.
-[18:40:38] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[18:40:39] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [141, 67] in dimension 0 (overworld) while populating chunk [140, 67], causing cascading worldgen lag.
-[18:40:39] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[18:40:40] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [140, 68] in dimension 0 (overworld) while populating chunk [140, 67], causing cascading worldgen lag.
-[18:40:40] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[18:40:40] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [141, 68] in dimension 0 (overworld) while populating chunk [140, 67], causing cascading worldgen lag.
-[18:40:40] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[18:40:40] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [141, 69] in dimension 0 (overworld) while populating chunk [140, 69], causing cascading worldgen lag.
-[18:40:40] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[18:40:40] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [140, 70] in dimension 0 (overworld) while populating chunk [140, 69], causing cascading worldgen lag.
-[18:40:40] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[18:40:40] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [141, 70] in dimension 0 (overworld) while populating chunk [140, 69], causing cascading worldgen lag.
-[18:40:40] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[18:40:42] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Nepenthes: Teleported Nepenthes to Aurora]
-[18:47:23] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 24df865e-b50d-4a1e-a1ca-ee66b972682d
-[18:49:56] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Nepenthes has made the advancement [Isn't It Iron Pick]
-[18:52:39] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 857c02cc-d2c4-467d-822a-25c5aabb69ba
-[18:52:57] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 24df865e-b50d-4a1e-a1ca-ee66b972682d
-[18:53:28] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Aurora moved wrongly!
-[18:53:37] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Aurora moved wrongly!
-[18:56:41] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Aurora fell from a high place
-[18:57:48] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 857c02cc-d2c4-467d-822a-25c5aabb69ba
-[18:58:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Aurora: Teleported Aurora to 0.5, 90.0, 0.5]
-[18:59:57] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Nepenthes lost connection: Disconnected
-[18:59:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Nepenthes left the game
-[19:00:34] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Aurora lost connection: Disconnected
-[19:00:34] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Aurora left the game
-[19:00:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Stopping the server
-[19:00:47] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
-[19:00:47] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
-[19:00:47] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
-[19:00:47] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'world'/overworld
-[19:00:47] [Server thread/INFO] [FML]: Unloading dimension 0
-[19:00:47] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
-[19:00:47] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
-[19:00:47] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[19:38:31] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[19:38:31] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[19:38:31] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[19:38:31] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2859 for Minecraft 1.12.2 loading
+[19:38:31] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_392, running on Linux:amd64:6.2.0-1018-azure, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
+[19:38:32] [main/INFO] [FML]: Searching /workspaces/MCpixelmon/./mods for mods
+[19:38:32] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in [R键整理] InventoryTweaks-1.63.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[19:38:32] [main/WARN] [FML]: The coremod invtweaks.forge.asm.FMLPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[19:38:32] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in UltimateStack.-1.12.2-1.3.1.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[19:38:32] [main/WARN] [FML]: The coremod UltimateStackPatchingLoader (com.porpit.ultimatestack.transform.UltimateStackPatchingLoader) is not signed!
+[19:38:32] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from PPCore.-1.12.2-2.0.0.jar
+[19:38:32] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[19:38:32] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
+[19:38:32] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.7.11 Source=file:/workspaces/MCpixelmon/./mods/PPCore.-1.12.2-2.0.0.jar Service=LaunchWrapper Env=SERVER
+[19:38:32] [main/WARN] [FML]: The coremod PPPatchingLoader (com.porpit.ppcore.core.PPPatchingLoader) is not signed!
+[19:38:32] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[19:38:32] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[19:38:32] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[19:38:32] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[19:38:34] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[19:38:34] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[19:38:34] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[19:38:34] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
+[19:38:34] [main/INFO] [mixin]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@69e308c6
+[19:38:34] [main/INFO] [PPCore]: PPCore has been hooked by Forge, setting up Mixin and plugins
+[19:38:34] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[19:38:34] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[19:38:34] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[19:38:34] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[19:38:34] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[19:38:34] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[19:38:35] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[19:38:35] [main/INFO] [STDOUT]: [com.porpit.ppcore.transform.PPCoreTransformer:transform:50]: [ppcore] Patching net.minecraft.item.ItemStack
+[19:38:35] [main/INFO] [STDOUT]: [com.porpit.ppcore.transform.PPCoreTransformer:spliceClasses:159]: Spliced in METHOD: aip.d
+[19:38:35] [main/INFO] [STDOUT]: [com.porpit.ultimatestack.transform.UltimateStackTransformer$9:transform:468]: Patched Method:net.minecraft.item.ItemStack.writeToNBT: Int to Short
+[19:38:35] [main/INFO] [STDOUT]: [com.porpit.ultimatestack.transform.UltimateStackTransformer$9:transform:472]: Patched Method:net.minecraft.item.ItemStack.writeToNBT: Item Count Byte->Short
+[19:38:35] [main/INFO] [STDOUT]: [com.porpit.ultimatestack.transform.UltimateStackTransformer$9:transform:493]: Patched Method:net.minecraft.item.ItemStack.<init>: Item Count Byte->Short
+[19:38:35] [main/INFO] [STDOUT]: [com.porpit.ppcore.transform.PPCoreTransformer:transform:50]: [ppcore] Patching net.minecraft.tileentity.TileEntityDispenser
+[19:38:36] [main/INFO] [STDOUT]: [com.porpit.ultimatestack.transform.UltimateStackTransformer$1:transform:52]: Patched Method:net.minecraft.tileentity.TileEntityDispenser.getInventoryStackLimit:MaxStackSize
+[19:38:36] [main/INFO] [STDOUT]: [com.porpit.ppcore.transform.PPCoreTransformer:transform:50]: [ppcore] Patching net.minecraft.tileentity.TileEntityChest
+[19:38:36] [main/INFO] [STDOUT]: [com.porpit.ultimatestack.transform.UltimateStackTransformer$1:transform:52]: Patched Method:net.minecraft.tileentity.TileEntityChest.getInventoryStackLimit:MaxStackSize
+[19:38:36] [main/INFO] [STDOUT]: [com.porpit.ppcore.transform.PPCoreTransformer:transform:50]: [ppcore] Patching net.minecraft.tileentity.TileEntityFurnace
+[19:38:36] [main/INFO] [STDOUT]: [com.porpit.ultimatestack.transform.UltimateStackTransformer$1:transform:52]: Patched Method:net.minecraft.tileentity.TileEntityFurnace.getInventoryStackLimit:MaxStackSize
+[19:38:36] [main/INFO] [STDOUT]: [com.porpit.ppcore.transform.PPCoreTransformer:transform:50]: [ppcore] Patching net.minecraft.tileentity.TileEntityBrewingStand
+[19:38:36] [main/INFO] [STDOUT]: [com.porpit.ultimatestack.transform.UltimateStackTransformer$1:transform:52]: Patched Method:net.minecraft.tileentity.TileEntityBrewingStand.getInventoryStackLimit:MaxStackSize
+[19:38:37] [main/INFO] [STDOUT]: [com.porpit.ppcore.transform.PPCoreTransformer:transform:50]: [ppcore] Patching net.minecraft.tileentity.TileEntityHopper
+[19:38:37] [main/INFO] [STDOUT]: [com.porpit.ultimatestack.transform.UltimateStackTransformer$1:transform:52]: Patched Method:net.minecraft.tileentity.TileEntityHopper.getInventoryStackLimit:MaxStackSize
+[19:38:37] [main/INFO] [STDOUT]: [com.porpit.ppcore.transform.PPCoreTransformer:transform:50]: [ppcore] Patching net.minecraft.tileentity.TileEntityShulkerBox
+[19:38:37] [main/INFO] [STDOUT]: [com.porpit.ultimatestack.transform.UltimateStackTransformer$1:transform:52]: Patched Method:net.minecraft.tileentity.TileEntityShulkerBox.getInventoryStackLimit:MaxStackSize
+[19:38:37] [main/INFO] [STDOUT]: [com.porpit.ppcore.transform.PPCoreTransformer:transform:50]: [ppcore] Patching net.minecraft.entity.item.EntityMinecartContainer
+[19:38:37] [main/INFO] [STDOUT]: [com.porpit.ultimatestack.transform.UltimateStackTransformer$1:transform:52]: Patched Method:net.minecraft.entity.item.EntityMinecartContainer.getInventoryStackLimit:MaxStackSize
+[19:38:38] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
+[19:38:38] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2859 Initialized
+[19:38:38] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[19:38:39] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[19:38:39] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
+[19:38:39] [Server thread/INFO] [FML]: Searching /workspaces/MCpixelmon/./mods for mods
+[19:38:41] [Server thread/INFO] [FML]: Forge Mod Loader has identified 16 mods to load
+[19:38:41] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
+[19:38:41] [Server thread/WARN] [FML]: Missing English translation for bop_patch: assets/bop_patch/lang/en_us.lang
+[19:38:41] [Server thread/WARN] [FML]: Missing English translation for pixelextras: assets/pixelextras/lang/en_us.lang
+[19:38:41] [Server thread/WARN] [FML]: Missing English translation for ultimatestack: assets/ultimatestack/lang/en_us.lang
+[19:38:41] [Server thread/WARN] [FML]: Missing English translation for ppcore: assets/ppcore/lang/en_us.lang
+[19:38:41] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, PPDummy, jei, inventorytweaks, biomesoplenty, bop_patch, journeymap, naturescompass, pixelextras, pixelmon, tcg, ultimatestack, ppcore] at CLIENT
+[19:38:41] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, PPDummy, jei, inventorytweaks, biomesoplenty, bop_patch, journeymap, naturescompass, pixelextras, pixelmon, tcg, ultimatestack, ppcore] at SERVER
+[19:38:41] [Server thread/INFO] [STDOUT]: [com.porpit.ppcore.transform.PPCoreTransformer:transform:50]: [ppcore] Patching net.minecraft.network.PacketBuffer
+[19:38:41] [Server thread/INFO] [STDOUT]: [com.porpit.ppcore.transform.PPCoreTransformer:spliceClasses:159]: Spliced in METHOD: gy.a
+[19:38:41] [Server thread/INFO] [STDOUT]: [com.porpit.ppcore.transform.PPCoreTransformer:spliceClasses:159]: Spliced in METHOD: gy.k
+[19:38:42] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
+[19:38:42] [Server thread/INFO] [FML]: Found 1189 ObjectHolder annotations
+[19:38:42] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[19:38:42] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[19:38:42] [Server thread/INFO] [STDOUT]: [com.porpit.ppcore.transform.PPCoreTransformer:transform:50]: [ppcore] Patching net.minecraftforge.items.ItemStackHandler
+[19:38:42] [Server thread/INFO] [STDOUT]: [com.porpit.ultimatestack.transform.UltimateStackTransformer$8:transform:435]: Patched Method:net.minecraftforge.items.ItemStackHandler.getSlotLimit: MaxSlotLimit
+[19:38:42] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[19:38:42] [Forge Version Check/INFO] [forge.VersionCheck]: [pixelmon] Starting version check at https://reforged.gg/forge/update.json
+[19:38:43] [Forge Version Check/INFO] [forge.VersionCheck]: [pixelmon] Found status: OUTDATED Target: 8.4.3
+[19:38:43] [Forge Version Check/INFO] [forge.VersionCheck]: [pixelextras] Starting version check at https://ogn.pixelmonmod.com/update/sm-pe/update.json
+[19:38:43] [Forge Version Check/INFO] [forge.VersionCheck]: [pixelextras] Found status: UP_TO_DATE Target: null
+[19:38:43] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[19:38:44] [Server thread/INFO] [Pixelmon]: Loading Pixelmon version 8.4.2
+[19:38:45] [Server thread/INFO] [Pixelmon]: Checking for migrations..
+[19:38:45] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: UP_TO_DATE Target: null
+[19:38:45] [Forge Version Check/INFO] [forge.VersionCheck]: [ultimatestack] Starting version check at https://raw.githubusercontent.com/PorPit/UltimateStack/1.12.2/version.json
+[19:38:45] [Forge Version Check/INFO] [forge.VersionCheck]: [ultimatestack] Found status: UP_TO_DATE Target: null
+[19:38:45] [Server thread/INFO] [Pixelmon]: Loading Advancements
+[19:38:47] [Server thread/INFO] [ppcore]: Loading PPCore
+[19:38:47] [Server thread/INFO] [ultimatestack]: Started loading config. 
+[19:38:47] [Server thread/INFO] [ultimatestack]: Finished loading config. 
+[19:38:47] [Thread-3/INFO] [ultimatestack]: 最新版本号:1.3.1
+[19:38:47] [Thread-3/INFO] [ultimatestack]: 更新日期:2019/02/26
+[19:38:47] [Thread-3/INFO] [ultimatestack]: 更新日志:修复linux 系统下配置文件路径问题
+[19:38:48] [Server thread/INFO] [FML]: Applying holder lookups
+[19:38:48] [Server thread/INFO] [FML]: Holder lookups applied
+[19:38:48] [Server thread/INFO] [FML]: Applying holder lookups
+[19:38:48] [Server thread/INFO] [FML]: Holder lookups applied
+[19:38:49] [Server thread/INFO] [FML]: Applying holder lookups
+[19:38:49] [Server thread/INFO] [FML]: Holder lookups applied
+[19:38:49] [Server thread/INFO] [FML]: Applying holder lookups
+[19:38:49] [Server thread/INFO] [FML]: Holder lookups applied
+[19:38:49] [Server thread/INFO] [FML]: Injecting itemstacks
+[19:38:49] [Server thread/INFO] [FML]: Itemstack injection complete
+[19:38:49] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
+[19:38:49] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
+[19:38:49] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
+[19:38:49] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
+[19:38:49] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using epoll channel type
+[19:38:49] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:38:49] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
+[19:38:49] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19:38:49] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:38:49] [Server thread/INFO] [FML]: Applying holder lookups
+[19:38:49] [Server thread/INFO] [FML]: Holder lookups applied
+[19:38:49] [Server thread/WARN] [bop_patch]: Could not find LeavesModelEventHandler, is biomesoplenty really installed?
+[19:38:49] [Server thread/INFO] [Pixelmon]: Registering shop items.
+[19:38:49] [Server thread/INFO] [Pixelmon]: Registering NPCs.
+[19:38:50] [Server thread/INFO] [Pixelmon]: Registering structures.
+[19:38:50] [Server thread/INFO] [Pixelmon]: Registering all drops.
+[19:38:50] [Server thread/INFO] [Pixelmon]: Registering battle rules.
+[19:38:51] [Server thread/INFO] [Pixelmon]: Registering Pokémon stats.
+[19:38:51] [Server thread/WARN] [Pixelmon]: Attack name invalid: Chloroblast
+[19:38:51] [Server thread/WARN] [Pixelmon]: Attack name invalid: Barb Barrage
+[19:38:51] [Server thread/WARN] [Pixelmon]: Attack name invalid: Ceaseless Edge
+[19:38:51] [Server thread/WARN] [Pixelmon]: Attack name invalid: Esper Wing
+[19:38:51] [Server thread/WARN] [Pixelmon]: Attack name invalid: Power Shift
+[19:38:51] [Server thread/WARN] [Pixelmon]: Attack name invalid: Shelter
+[19:38:51] [Server thread/WARN] [Pixelmon]: Attack name invalid: Shelter
+[19:38:51] [Server thread/WARN] [Pixelmon]: Attack name invalid: Psyshield Bash
+[19:38:51] [Server thread/WARN] [Pixelmon]: Attack name invalid: Tackled
+[19:38:51] [Server thread/WARN] [Pixelmon]: Attack name invalid: Wave Crash
+[19:38:51] [Server thread/WARN] [Pixelmon]: Attack name invalid: Springtide Storm
+[19:38:51] [Server thread/WARN] [Pixelmon]: Attack name invalid: Power Shift
+[19:38:51] [Server thread/INFO] [Pixelmon]: Registering quests.
+[19:38:51] [Server thread/INFO] [Pixelmon]: Loaded 39 Quests.
+[19:38:52] [Server thread/INFO] [Pixelmon TCG]: Initializing Pixelmon TCG v1.12.2-8.4.2-universal
+[19:38:52] [Server thread/INFO] [ultimatestack]: Started loading Item. 
+[19:38:52] [Server thread/INFO] [STDOUT]: [com.porpit.ppcore.transform.PPCoreTransformer:transform:50]: [ppcore] Patching net.minecraft.inventory.InventoryBasic
+[19:38:52] [Server thread/INFO] [STDOUT]: [com.porpit.ultimatestack.transform.UltimateStackTransformer$1:transform:52]: Patched Method:net.minecraft.inventory.InventoryBasic.getInventoryStackLimit:MaxStackSize
+[19:38:52] [Server thread/INFO] [ultimatestack]: Finished loading Item. 
+[19:38:52] [Server thread/INFO] [FML]: Injecting itemstacks
+[19:38:52] [Server thread/INFO] [FML]: Itemstack injection complete
+[19:38:52] [Server thread/INFO] [Pixelmon]: Registering spawn sets.
+[19:38:53] [Server thread/INFO] [Pixelmon]: Registering raid spawning.
+[19:38:54] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 16 mods
+[19:38:54] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
+[19:38:54] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[19:38:55] [Server thread/INFO] [FML]: Applying holder lookups
+[19:38:55] [Server thread/INFO] [FML]: Holder lookups applied
+[19:38:55] [Server thread/INFO] [FML]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@448f54a5)
+[19:38:55] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 946 advancements
+[19:38:55] [Server thread/INFO] [FML]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@448f54a5)
+[19:38:55] [Server thread/INFO] [STDOUT]: [biomesoplenty.common.world.BiomeProviderBOPHell:<init>:32]: settings for hell world: 
+[19:38:55] [Server thread/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@448f54a5)
+[19:38:55] [Server thread/INFO] [FML]: Loading dimension 72 (world) (net.minecraft.server.dedicated.DedicatedServer@448f54a5)
+[19:38:55] [Server thread/INFO] [FML]: Loading dimension 73 (world) (net.minecraft.server.dedicated.DedicatedServer@448f54a5)
+[19:38:55] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[19:38:56] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 8%
+[19:38:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (3.076s)! For help, type "help" or "?"
+[19:38:57] [Server thread/INFO] [ultimatestack]: UltimateStack (终极堆叠) MOD 成功加载! 作者:PorPit(泼皮)
+[19:38:57] [Server thread/INFO] [ultimatestack]: 如有问题反馈 https://github.com/PorPit/UltimateStack/issues   泼皮QQ:692066768
+[19:38:57] [Server thread/INFO] [FML]: Unloading dimension 1
+[19:38:57] [Server thread/INFO] [FML]: Unloading dimension -1
+[19:38:57] [Server thread/INFO] [FML]: Unloading dimension 72
+[19:38:57] [Server thread/INFO] [FML]: Unloading dimension 73
+[19:44:56] [Server thread/INFO] [STDOUT]: [com.porpit.ppcore.transform.PPCoreTransformer:transform:50]: [ppcore] Patching net.minecraft.entity.player.InventoryPlayer
+[19:44:56] [Server thread/INFO] [STDOUT]: [com.porpit.ultimatestack.transform.UltimateStackTransformer$1:transform:52]: Patched Method:net.minecraft.entity.player.InventoryPlayer.getInventoryStackLimit:MaxStackSize
+[19:44:56] [Server thread/INFO] [STDOUT]: [com.porpit.ppcore.transform.PPCoreTransformer:transform:50]: [ppcore] Patching net.minecraft.inventory.InventoryCrafting
+[19:44:56] [Server thread/INFO] [STDOUT]: [com.porpit.ultimatestack.transform.UltimateStackTransformer$1:transform:52]: Patched Method:net.minecraft.inventory.InventoryCrafting.getInventoryStackLimit:MaxStackSize
+[19:44:56] [Server thread/INFO] [STDOUT]: [com.porpit.ppcore.transform.PPCoreTransformer:transform:50]: [ppcore] Patching net.minecraft.inventory.InventoryCraftResult
+[19:44:56] [Server thread/INFO] [STDOUT]: [com.porpit.ultimatestack.transform.UltimateStackTransformer$1:transform:52]: Patched Method:net.minecraft.inventory.InventoryCraftResult.getInventoryStackLimit:MaxStackSize
+[19:44:56] [Server thread/INFO] [STDOUT]: [com.porpit.ppcore.transform.PPCoreTransformer:transform:50]: [ppcore] Patching net.minecraft.network.NetHandlerPlayServer
+[19:44:56] [Server thread/INFO] [STDOUT]: [com.porpit.ultimatestack.transform.UltimateStackTransformer$7:transform:410]: Patched Method:net.minecraft.network.NetHandlerPlayServer.processCreativeInventoryAction: Creative Clone
+[19:44:56] [Netty Epoll Server IO #1/INFO] [FML]: Client protocol version 2
+[19:44:56] [Netty Epoll Server IO #1/INFO] [FML]: Client attempting to join with 19 mods : minecraft@1.12.2,PPDummy@1.0.0,FML@8.0.99.99,inventorytweaks@1.63+release.109.220f184,fancymenu@1.5.2,biomesoplenty@7.0.1.2444,ppcore@2.0.0,pixelextras@2.5.17,jei@4.16.1.301,bop_patch@1.0,gameshark@6.0.6,forge@14.23.5.2860,ultimatestack@1.3.1,tcg@1.12.2-8.4.2-universal,konkrete@1.0.3,mcp@9.42,journeymap@1.12.2-5.7.1,pixelmon@8.4.2,naturescompass@1.8.5
+[19:44:56] [Netty Epoll Server IO #1/INFO] [journeymap]: CLIENT
+[19:44:57] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[19:44:57] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Aurora[/127.0.0.1:34228] logged in with entity id 3 at (1860.3548140285268, 64.0, 234.63979598700476)
+[19:44:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Aurora joined the game
+[19:48:15] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Aurora lost connection: Internal Exception: io.netty.channel.unix.Errors$NativeIoException: syscall:read(..) failed: Connection reset by peer
+[19:48:15] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Aurora left the game
+[19:48:28] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Stopping the server
+[19:48:28] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[19:48:28] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[19:48:28] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[19:48:28] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'world'/overworld
+[19:48:28] [Server thread/INFO] [FML]: Unloading dimension 0
+[19:48:28] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[19:48:28] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[19:48:28] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
