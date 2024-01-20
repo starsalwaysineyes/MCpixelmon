@@ -101,15 +101,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/mossy_stonebrick": {
-    "criteria": {
-      "has_mossy_cobblestone": "2024-01-20 06:40:10 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/magenta_wool": {
     "criteria": {
       "has_white_wool": "2024-01-20 06:06:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stonebrick": {
+    "criteria": {
+      "has_mossy_cobblestone": "2024-01-20 06:40:10 +0000"
     },
     "done": true
   },
@@ -1055,6 +1055,7 @@
       "forest_hills": "2024-01-17 16:57:49 +0000",
       "plains": "2024-01-17 15:41:14 +0000",
       "savanna": "2024-01-17 17:34:47 +0000",
+      "jungle_hills": "2024-01-20 09:45:19 +0000",
       "mesa_clear_rock": "2024-01-19 11:13:36 +0000",
       "savanna_rock": "2024-01-17 17:38:47 +0000",
       "ice_mountains": "2024-01-17 15:22:31 +0000",
@@ -1067,6 +1068,7 @@
       "roofed_forest": "2024-01-17 15:54:46 +0000",
       "cold_beach": "2024-01-17 16:42:33 +0000",
       "river": "2024-01-17 15:53:28 +0000",
+      "jungle": "2024-01-20 09:45:03 +0000",
       "desert": "2024-01-17 17:40:19 +0000",
       "stone_beach": "2024-01-18 17:19:40 +0000"
     },
@@ -1639,15 +1641,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/green_stained_glass_pane": {
-    "criteria": {
-      "has_glass": "2024-01-20 06:40:11 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/orange_wool": {
     "criteria": {
       "has_white_wool": "2024-01-20 06:06:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/green_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2024-01-20 06:40:11 +0000"
     },
     "done": true
   },
@@ -2478,15 +2480,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/light_gray_stained_glass_pane": {
-    "criteria": {
-      "has_glass": "2024-01-20 06:40:11 +0000"
-    },
-    "done": true
-  },
   "pixelmon:recipes/decorative/brown_cushion_chair": {
     "criteria": {
       "has_wool": "2024-01-20 06:03:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2024-01-20 06:40:11 +0000"
     },
     "done": true
   }
