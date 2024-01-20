@@ -440,6 +440,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/sandstone_stairs": {
+    "criteria": {
+      "has_sandstone": "2024-01-20 06:21:21 +0000"
+    },
+    "done": true
+  },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "golden_apple": "2024-01-18 17:51:11 +0000"
@@ -634,6 +640,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/sandstone_slab": {
+    "criteria": {
+      "has_sandstone": "2024-01-20 06:21:21 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/tnt": {
     "criteria": {
       "has_gunpowder": "2024-01-18 17:51:39 +0000"
@@ -656,6 +668,12 @@
   "minecraft:recipes/decorations/black_stained_glass_pane": {
     "criteria": {
       "has_glass": "2024-01-19 11:16:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_sandstone": {
+    "criteria": {
+      "has_sandstone": "2024-01-20 06:21:21 +0000"
     },
     "done": true
   },
@@ -1212,6 +1230,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/blaze_powder": {
+    "criteria": {
+      "has_blaze_rod": "2024-01-20 03:23:05 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/paper": {
     "criteria": {
       "has_reeds": "2024-01-18 17:26:45 +0000"
@@ -1647,6 +1671,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/brewing_stand": {
+    "criteria": {
+      "has_blaze_rod": "2024-01-20 03:23:05 +0000"
+    },
+    "done": true
+  },
   "pixelmon:recipes/decorative/black_rug": {
     "criteria": {
       "has_wool": "2024-01-19 06:13:06 +0000"
@@ -1721,13 +1751,26 @@
   },
   "pixelmon:recipes/lures/lure_shiny_strong": {
     "criteria": {
-      "has_case_recipe": "2024-01-18 14:16:48 +0000"
+      "has_case_recipe": "2024-01-18 14:16:48 +0000",
+      "has_starf": "2024-01-20 04:54:39 +0000"
     },
-    "done": false
+    "done": true
+  },
+  "pixelmon:legendaries/zapdos_capture_trigger": {
+    "criteria": {
+      "zapdos_capture": "2024-01-20 04:50:04 +0000"
+    },
+    "done": true
   },
   "pixelmon:recipes/decorative/orange_rug": {
     "criteria": {
       "has_wool": "2024-01-19 06:13:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2024-01-20 03:23:05 +0000"
     },
     "done": true
   },
@@ -1773,11 +1816,13 @@
       "beaches": "2024-01-17 15:37:36 +0000",
       "extreme_hills_with_trees": "2024-01-17 17:06:28 +0000",
       "desert_hills": "2024-01-18 07:07:19 +0000",
+      "mesa": "2024-01-20 03:10:36 +0000",
       "forest_hills": "2024-01-17 16:41:44 +0000",
       "plains": "2024-01-17 15:41:33 +0000",
       "savanna": "2024-01-18 07:02:54 +0000",
       "jungle_hills": "2024-01-19 17:00:11 +0000",
       "jungle_edge": "2024-01-19 16:44:29 +0000",
+      "mesa_clear_rock": "2024-01-20 06:36:01 +0000",
       "savanna_rock": "2024-01-18 18:14:59 +0000",
       "ice_mountains": "2024-01-17 16:49:55 +0000",
       "taiga": "2024-01-17 16:54:36 +0000",
@@ -1950,6 +1995,12 @@
   "minecraft:recipes/decorations/brown_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2024-01-19 16:48:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite": {
+    "criteria": {
+      "has_stone": "2024-01-20 03:29:00 +0000"
     },
     "done": true
   },
