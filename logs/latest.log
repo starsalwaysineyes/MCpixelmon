@@ -1,462 +1,230 @@
-[07:31:56] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[07:31:56] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[07:31:56] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[07:31:56] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2859 for Minecraft 1.12.2 loading
-[07:31:56] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_392, running on Linux:amd64:6.2.0-1018-azure, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
-[07:31:56] [main/INFO] [FML]: Searching /workspaces/MCpixelmon/./mods for mods
-[07:31:56] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in [R键整理] InventoryTweaks-1.63.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
-[07:31:56] [main/WARN] [FML]: The coremod invtweaks.forge.asm.FMLPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
-[07:31:56] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in UltimateStack.-1.12.2-1.3.1.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
-[07:31:56] [main/WARN] [FML]: The coremod UltimateStackPatchingLoader (com.porpit.ultimatestack.transform.UltimateStackPatchingLoader) is not signed!
-[07:31:56] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from PPCore.-1.12.2-2.0.0.jar
-[07:31:56] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[07:31:56] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
-[07:31:56] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.7.11 Source=file:/workspaces/MCpixelmon/./mods/PPCore.-1.12.2-2.0.0.jar Service=LaunchWrapper Env=SERVER
-[07:31:57] [main/WARN] [FML]: The coremod PPPatchingLoader (com.porpit.ppcore.core.PPPatchingLoader) is not signed!
-[07:31:57] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[07:31:57] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[07:31:57] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[07:31:57] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[07:31:58] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
-[07:31:58] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[07:31:58] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[07:31:58] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
-[07:31:58] [main/INFO] [mixin]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@4351171a
-[07:31:58] [main/INFO] [PPCore]: PPCore has been hooked by Forge, setting up Mixin and plugins
-[07:31:58] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[07:31:59] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[07:31:59] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[07:31:59] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
-[07:31:59] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[07:31:59] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
-[07:31:59] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
-[07:32:00] [main/INFO] [STDOUT]: [com.porpit.ppcore.transform.PPCoreTransformer:transform:50]: [ppcore] Patching net.minecraft.item.ItemStack
-[07:32:00] [main/INFO] [STDOUT]: [com.porpit.ppcore.transform.PPCoreTransformer:spliceClasses:159]: Spliced in METHOD: aip.d
-[07:32:00] [main/INFO] [STDOUT]: [com.porpit.ultimatestack.transform.UltimateStackTransformer$9:transform:468]: Patched Method:net.minecraft.item.ItemStack.writeToNBT: Int to Short
-[07:32:00] [main/INFO] [STDOUT]: [com.porpit.ultimatestack.transform.UltimateStackTransformer$9:transform:472]: Patched Method:net.minecraft.item.ItemStack.writeToNBT: Item Count Byte->Short
-[07:32:00] [main/INFO] [STDOUT]: [com.porpit.ultimatestack.transform.UltimateStackTransformer$9:transform:493]: Patched Method:net.minecraft.item.ItemStack.<init>: Item Count Byte->Short
-[07:32:00] [main/INFO] [STDOUT]: [com.porpit.ppcore.transform.PPCoreTransformer:transform:50]: [ppcore] Patching net.minecraft.tileentity.TileEntityDispenser
-[07:32:00] [main/INFO] [STDOUT]: [com.porpit.ultimatestack.transform.UltimateStackTransformer$1:transform:52]: Patched Method:net.minecraft.tileentity.TileEntityDispenser.getInventoryStackLimit:MaxStackSize
-[07:32:00] [main/INFO] [STDOUT]: [com.porpit.ppcore.transform.PPCoreTransformer:transform:50]: [ppcore] Patching net.minecraft.tileentity.TileEntityChest
-[07:32:00] [main/INFO] [STDOUT]: [com.porpit.ultimatestack.transform.UltimateStackTransformer$1:transform:52]: Patched Method:net.minecraft.tileentity.TileEntityChest.getInventoryStackLimit:MaxStackSize
-[07:32:01] [main/INFO] [STDOUT]: [com.porpit.ppcore.transform.PPCoreTransformer:transform:50]: [ppcore] Patching net.minecraft.tileentity.TileEntityFurnace
-[07:32:01] [main/INFO] [STDOUT]: [com.porpit.ultimatestack.transform.UltimateStackTransformer$1:transform:52]: Patched Method:net.minecraft.tileentity.TileEntityFurnace.getInventoryStackLimit:MaxStackSize
-[07:32:01] [main/INFO] [STDOUT]: [com.porpit.ppcore.transform.PPCoreTransformer:transform:50]: [ppcore] Patching net.minecraft.tileentity.TileEntityBrewingStand
-[07:32:01] [main/INFO] [STDOUT]: [com.porpit.ultimatestack.transform.UltimateStackTransformer$1:transform:52]: Patched Method:net.minecraft.tileentity.TileEntityBrewingStand.getInventoryStackLimit:MaxStackSize
-[07:32:01] [main/INFO] [STDOUT]: [com.porpit.ppcore.transform.PPCoreTransformer:transform:50]: [ppcore] Patching net.minecraft.tileentity.TileEntityHopper
-[07:32:01] [main/INFO] [STDOUT]: [com.porpit.ultimatestack.transform.UltimateStackTransformer$1:transform:52]: Patched Method:net.minecraft.tileentity.TileEntityHopper.getInventoryStackLimit:MaxStackSize
-[07:32:01] [main/INFO] [STDOUT]: [com.porpit.ppcore.transform.PPCoreTransformer:transform:50]: [ppcore] Patching net.minecraft.tileentity.TileEntityShulkerBox
-[07:32:01] [main/INFO] [STDOUT]: [com.porpit.ultimatestack.transform.UltimateStackTransformer$1:transform:52]: Patched Method:net.minecraft.tileentity.TileEntityShulkerBox.getInventoryStackLimit:MaxStackSize
-[07:32:02] [main/INFO] [STDOUT]: [com.porpit.ppcore.transform.PPCoreTransformer:transform:50]: [ppcore] Patching net.minecraft.entity.item.EntityMinecartContainer
-[07:32:02] [main/INFO] [STDOUT]: [com.porpit.ultimatestack.transform.UltimateStackTransformer$1:transform:52]: Patched Method:net.minecraft.entity.item.EntityMinecartContainer.getInventoryStackLimit:MaxStackSize
-[07:32:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
-[07:32:03] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2859 Initialized
-[07:32:03] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
-[07:32:03] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
-[07:32:04] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
-[07:32:04] [Server thread/INFO] [FML]: Searching /workspaces/MCpixelmon/./mods for mods
-[07:32:05] [Server thread/INFO] [FML]: Forge Mod Loader has identified 18 mods to load
-[07:32:05] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
-[07:32:05] [Server thread/WARN] [FML]: Missing English translation for bop_patch: assets/bop_patch/lang/en_us.lang
-[07:32:05] [Server thread/WARN] [FML]: Missing English translation for pixelextras: assets/pixelextras/lang/en_us.lang
-[07:32:05] [Server thread/WARN] [FML]: Missing English translation for ultimatestack: assets/ultimatestack/lang/en_us.lang
-[07:32:05] [Server thread/WARN] [FML]: Missing English translation for ppcore: assets/ppcore/lang/en_us.lang
-[07:32:06] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, PPDummy, jei, inventorytweaks, travelersbackpack, biomesoplenty, bop_patch, gameshark, journeymap, naturescompass, pixelextras, pixelmon, tcg, ultimatestack, ppcore] at CLIENT
-[07:32:06] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, PPDummy, jei, inventorytweaks, travelersbackpack, biomesoplenty, bop_patch, gameshark, journeymap, naturescompass, pixelextras, pixelmon, tcg, ultimatestack, ppcore] at SERVER
-[07:32:06] [Server thread/INFO] [STDOUT]: [com.porpit.ppcore.transform.PPCoreTransformer:transform:50]: [ppcore] Patching net.minecraft.network.PacketBuffer
-[07:32:06] [Server thread/INFO] [STDOUT]: [com.porpit.ppcore.transform.PPCoreTransformer:spliceClasses:159]: Spliced in METHOD: gy.a
-[07:32:06] [Server thread/INFO] [STDOUT]: [com.porpit.ppcore.transform.PPCoreTransformer:spliceClasses:159]: Spliced in METHOD: gy.k
-[07:32:07] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
-[07:32:07] [Server thread/INFO] [FML]: Found 1189 ObjectHolder annotations
-[07:32:07] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
-[07:32:07] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
-[07:32:07] [Server thread/INFO] [STDOUT]: [com.porpit.ppcore.transform.PPCoreTransformer:transform:50]: [ppcore] Patching net.minecraftforge.items.ItemStackHandler
-[07:32:07] [Server thread/INFO] [STDOUT]: [com.porpit.ultimatestack.transform.UltimateStackTransformer$8:transform:435]: Patched Method:net.minecraftforge.items.ItemStackHandler.getSlotLimit: MaxSlotLimit
-[07:32:07] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
-[07:32:07] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[07:32:07] [Server thread/INFO] [travelersbackpack]: Registered the class com.tiviacz.travelersbackpack.fluids.effects.EffectWater as a FluidEffect for water with the ID 0
-[07:32:07] [Server thread/INFO] [travelersbackpack]: Registered the class com.tiviacz.travelersbackpack.fluids.effects.EffectLava as a FluidEffect for lava with the ID 1
-[07:32:07] [Server thread/INFO] [travelersbackpack]: Registered the class com.tiviacz.travelersbackpack.fluids.effects.EffectMilk as a FluidEffect for milk with the ID 2
-[07:32:07] [Server thread/INFO] [travelersbackpack]: Registered the class com.tiviacz.travelersbackpack.fluids.effects.EffectPotion as a FluidEffect for potion with the ID 3
-[07:32:07] [Server thread/INFO] [travelersbackpack]: Starting the Integration Handler.
-[07:32:07] [Server thread/INFO] [travelersbackpack]: Didn't find any possible mod integration(s)!
-[07:32:09] [Server thread/INFO] [Pixelmon]: Loading Pixelmon version 8.4.2
-[07:32:09] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: UP_TO_DATE Target: null
-[07:32:09] [Forge Version Check/INFO] [forge.VersionCheck]: [pixelextras] Starting version check at https://ogn.pixelmonmod.com/update/sm-pe/update.json
-[07:32:09] [Forge Version Check/INFO] [forge.VersionCheck]: [pixelextras] Found status: UP_TO_DATE Target: null
-[07:32:09] [Forge Version Check/INFO] [forge.VersionCheck]: [ultimatestack] Starting version check at https://raw.githubusercontent.com/PorPit/UltimateStack/1.12.2/version.json
-[07:32:09] [Forge Version Check/INFO] [forge.VersionCheck]: [ultimatestack] Found status: UP_TO_DATE Target: null
-[07:32:09] [Forge Version Check/INFO] [forge.VersionCheck]: [pixelmon] Starting version check at https://reforged.gg/forge/update.json
-[07:32:10] [Server thread/INFO] [Pixelmon]: Checking for migrations..
-[07:32:10] [Forge Version Check/INFO] [forge.VersionCheck]: [pixelmon] Found status: OUTDATED Target: 8.4.3
-[07:32:10] [Forge Version Check/INFO] [forge.VersionCheck]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
-[07:32:10] [Forge Version Check/INFO] [forge.VersionCheck]: [travelersbackpack] Found status: AHEAD Target: null
-[07:32:10] [Server thread/INFO] [Pixelmon]: Loading Advancements
-[07:32:11] [Server thread/INFO] [Gameshark]: Successfully read config.
-[07:32:11] [Server thread/INFO] [Gameshark]: Successfully saved config.
-[07:32:12] [Server thread/INFO] [ppcore]: Loading PPCore
-[07:32:12] [Server thread/INFO] [ultimatestack]: Started loading config. 
-[07:32:12] [Server thread/INFO] [ultimatestack]: Finished loading config. 
-[07:32:12] [Thread-3/INFO] [ultimatestack]: 最新版本号:1.3.1
-[07:32:12] [Thread-3/INFO] [ultimatestack]: 更新日期:2019/02/26
-[07:32:12] [Thread-3/INFO] [ultimatestack]: 更新日志:修复linux 系统下配置文件路径问题
-[07:32:12] [Server thread/INFO] [FML]: Applying holder lookups
-[07:32:12] [Server thread/INFO] [FML]: Holder lookups applied
-[07:32:13] [Server thread/INFO] [FML]: Applying holder lookups
-[07:32:13] [Server thread/INFO] [FML]: Holder lookups applied
-[07:32:14] [Server thread/INFO] [FML]: Applying holder lookups
-[07:32:14] [Server thread/INFO] [FML]: Holder lookups applied
-[07:32:14] [Server thread/INFO] [FML]: Applying holder lookups
-[07:32:14] [Server thread/INFO] [FML]: Holder lookups applied
-[07:32:14] [Server thread/INFO] [FML]: Injecting itemstacks
-[07:32:14] [Server thread/INFO] [FML]: Itemstack injection complete
-[07:32:14] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
-[07:32:14] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
-[07:32:14] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
-[07:32:14] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
-[07:32:14] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using epoll channel type
-[07:32:14] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[07:32:14] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
-[07:32:14] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[07:32:14] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
-[07:32:14] [Server thread/INFO] [FML]: Applying holder lookups
-[07:32:14] [Server thread/INFO] [FML]: Holder lookups applied
-[07:32:14] [Server thread/WARN] [bop_patch]: Could not find LeavesModelEventHandler, is biomesoplenty really installed?
-[07:32:14] [Server thread/INFO] [Pixelmon]: Registering shop items.
-[07:32:14] [Server thread/INFO] [Pixelmon]: Registering NPCs.
-[07:32:15] [Server thread/INFO] [Pixelmon]: Registering structures.
-[07:32:15] [Server thread/INFO] [Pixelmon]: Registering all drops.
-[07:32:16] [Server thread/INFO] [Pixelmon]: Registering battle rules.
-[07:32:16] [Server thread/INFO] [Pixelmon]: Registering Pokémon stats.
-[07:32:16] [Server thread/WARN] [Pixelmon]: Attack name invalid: Chloroblast
-[07:32:16] [Server thread/WARN] [Pixelmon]: Attack name invalid: Barb Barrage
-[07:32:16] [Server thread/WARN] [Pixelmon]: Attack name invalid: Ceaseless Edge
-[07:32:16] [Server thread/WARN] [Pixelmon]: Attack name invalid: Esper Wing
-[07:32:16] [Server thread/WARN] [Pixelmon]: Attack name invalid: Power Shift
-[07:32:16] [Server thread/WARN] [Pixelmon]: Attack name invalid: Shelter
-[07:32:16] [Server thread/WARN] [Pixelmon]: Attack name invalid: Shelter
-[07:32:16] [Server thread/WARN] [Pixelmon]: Attack name invalid: Psyshield Bash
-[07:32:16] [Server thread/WARN] [Pixelmon]: Attack name invalid: Tackled
-[07:32:16] [Server thread/WARN] [Pixelmon]: Attack name invalid: Wave Crash
-[07:32:16] [Server thread/WARN] [Pixelmon]: Attack name invalid: Springtide Storm
-[07:32:16] [Server thread/WARN] [Pixelmon]: Attack name invalid: Power Shift
-[07:32:16] [Server thread/INFO] [Pixelmon]: Registering quests.
-[07:32:17] [Server thread/INFO] [Pixelmon]: Loaded 39 Quests.
-[07:32:17] [Server thread/INFO] [Gameshark]: initializing Gameshark v6.0.6
-[07:32:17] [Server thread/INFO] [Pixelmon TCG]: Initializing Pixelmon TCG v1.12.2-8.4.2-universal
-[07:32:17] [Server thread/INFO] [ultimatestack]: Started loading Item. 
-[07:32:17] [Server thread/INFO] [STDOUT]: [com.porpit.ppcore.transform.PPCoreTransformer:transform:50]: [ppcore] Patching net.minecraft.inventory.InventoryBasic
-[07:32:17] [Server thread/INFO] [STDOUT]: [com.porpit.ultimatestack.transform.UltimateStackTransformer$1:transform:52]: Patched Method:net.minecraft.inventory.InventoryBasic.getInventoryStackLimit:MaxStackSize
-[07:32:17] [Server thread/INFO] [ultimatestack]: Finished loading Item. 
-[07:32:18] [Server thread/INFO] [FML]: Injecting itemstacks
-[07:32:18] [Server thread/INFO] [FML]: Itemstack injection complete
-[07:32:18] [Server thread/INFO] [Pixelmon]: Registering spawn sets.
-[07:32:19] [Server thread/INFO] [Pixelmon]: Registering raid spawning.
-[07:32:19] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 18 mods
-[07:32:19] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
-[07:32:19] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
-[07:32:20] [Server thread/INFO] [FML]: Applying holder lookups
-[07:32:20] [Server thread/INFO] [FML]: Holder lookups applied
-[07:32:20] [Server thread/INFO] [FML]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@44ccf49b)
-[07:32:20] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 946 advancements
-[07:32:20] [Server thread/INFO] [FML]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@44ccf49b)
-[07:32:20] [Server thread/INFO] [STDOUT]: [biomesoplenty.common.world.BiomeProviderBOPHell:<init>:32]: settings for hell world: 
-[07:32:20] [Server thread/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@44ccf49b)
-[07:32:20] [Server thread/INFO] [FML]: Loading dimension 72 (world) (net.minecraft.server.dedicated.DedicatedServer@44ccf49b)
-[07:32:20] [Server thread/INFO] [FML]: Loading dimension 73 (world) (net.minecraft.server.dedicated.DedicatedServer@44ccf49b)
-[07:32:20] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
-[07:32:21] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 0%
-[07:32:22] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (3.395s)! For help, type "help" or "?"
-[07:32:22] [Server thread/INFO] [ultimatestack]: UltimateStack (终极堆叠) MOD 成功加载! 作者:PorPit(泼皮)
-[07:32:22] [Server thread/INFO] [ultimatestack]: 如有问题反馈 https://github.com/PorPit/UltimateStack/issues   泼皮QQ:692066768
-[07:32:22] [Server thread/INFO] [FML]: Unloading dimension 1
-[07:32:23] [Server thread/INFO] [FML]: Unloading dimension -1
-[07:32:23] [Server thread/INFO] [FML]: Unloading dimension 72
-[07:32:23] [Server thread/INFO] [FML]: Unloading dimension 73
-[07:34:32] [Server thread/INFO] [STDOUT]: [com.porpit.ppcore.transform.PPCoreTransformer:transform:50]: [ppcore] Patching net.minecraft.entity.player.InventoryPlayer
-[07:34:32] [Server thread/INFO] [STDOUT]: [com.porpit.ultimatestack.transform.UltimateStackTransformer$1:transform:52]: Patched Method:net.minecraft.entity.player.InventoryPlayer.getInventoryStackLimit:MaxStackSize
-[07:34:32] [Server thread/INFO] [STDOUT]: [com.porpit.ppcore.transform.PPCoreTransformer:transform:50]: [ppcore] Patching net.minecraft.inventory.InventoryCrafting
-[07:34:32] [Server thread/INFO] [STDOUT]: [com.porpit.ultimatestack.transform.UltimateStackTransformer$1:transform:52]: Patched Method:net.minecraft.inventory.InventoryCrafting.getInventoryStackLimit:MaxStackSize
-[07:34:32] [Server thread/INFO] [STDOUT]: [com.porpit.ppcore.transform.PPCoreTransformer:transform:50]: [ppcore] Patching net.minecraft.inventory.InventoryCraftResult
-[07:34:32] [Server thread/INFO] [STDOUT]: [com.porpit.ultimatestack.transform.UltimateStackTransformer$1:transform:52]: Patched Method:net.minecraft.inventory.InventoryCraftResult.getInventoryStackLimit:MaxStackSize
-[07:34:32] [Server thread/INFO] [STDOUT]: [com.porpit.ppcore.transform.PPCoreTransformer:transform:50]: [ppcore] Patching net.minecraft.network.NetHandlerPlayServer
-[07:34:32] [Server thread/INFO] [STDOUT]: [com.porpit.ultimatestack.transform.UltimateStackTransformer$7:transform:410]: Patched Method:net.minecraft.network.NetHandlerPlayServer.processCreativeInventoryAction: Creative Clone
-[07:34:32] [Netty Epoll Server IO #1/INFO] [FML]: Client protocol version 2
-[07:34:32] [Netty Epoll Server IO #1/INFO] [FML]: Client attempting to join with 20 mods : minecraft@1.12.2,PPDummy@1.0.0,FML@8.0.99.99,inventorytweaks@1.63+release.109.220f184,fancymenu@1.5.2,biomesoplenty@7.0.1.2444,ppcore@2.0.0,pixelextras@2.5.17,jei@4.16.1.301,bop_patch@1.0,gameshark@6.0.6,forge@14.23.5.2860,ultimatestack@1.3.1,tcg@1.12.2-8.4.2-universal,konkrete@1.0.3,mcp@9.42,journeymap@1.12.2-5.7.1,travelersbackpack@1.0.35,pixelmon@8.4.2,naturescompass@1.8.5
-[07:34:32] [Netty Epoll Server IO #1/INFO] [journeymap]: CLIENT
-[07:34:33] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[07:34:33] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Aurora[/127.0.0.1:56246] logged in with entity id 1 at (1690.4041135448033, 34.0, 717.4940877379315)
-[07:34:33] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Aurora joined the game
-[07:35:09] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 24df865e-b50d-4a1e-a1ca-ee66b972682d
-[07:36:08] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 24df865e-b50d-4a1e-a1ca-ee66b972682d
-[07:46:34] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Aurora lost connection: Disconnected
-[07:46:34] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Aurora left the game
-[08:20:27] [Netty Epoll Server IO #2/INFO] [FML]: Client protocol version 2
-[08:20:27] [Netty Epoll Server IO #2/INFO] [FML]: Client attempting to join with 20 mods : minecraft@1.12.2,PPDummy@1.0.0,FML@8.0.99.99,inventorytweaks@1.63+release.109.220f184,fancymenu@1.5.2,biomesoplenty@7.0.1.2444,ppcore@2.0.0,pixelextras@2.5.17,jei@4.16.1.301,bop_patch@1.0,gameshark@6.0.6,forge@14.23.5.2860,ultimatestack@1.3.1,tcg@1.12.2-8.4.2-universal,konkrete@1.0.3,mcp@9.42,journeymap@1.12.2-5.7.1,travelersbackpack@1.0.35,pixelmon@8.4.2,naturescompass@1.8.5
-[08:20:27] [Netty Epoll Server IO #2/INFO] [journeymap]: CLIENT
-[08:20:28] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[08:20:28] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Aurora[/127.0.0.1:59352] logged in with entity id 1655 at (1913.085630614989, 64.0, 254.25281944734434)
-[08:20:28] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Aurora joined the game
-[08:20:42] [Netty Epoll Server IO #0/INFO] [FML]: Client protocol version 2
-[08:20:42] [Netty Epoll Server IO #0/INFO] [FML]: Client attempting to join with 20 mods : minecraft@1.12.2,PPDummy@1.0.0,FML@8.0.99.99,inventorytweaks@1.63+release.109.220f184,fancymenu@1.5.2,biomesoplenty@7.0.1.2444,ppcore@2.0.0,pixelextras@2.5.17,jei@4.16.1.301,bop_patch@1.0,gameshark@6.0.6,forge@14.23.5.2860,ultimatestack@1.3.1,tcg@1.12.2-8.4.2-universal,konkrete@1.0.3,mcp@9.42,journeymap@1.12.2-5.7.1,travelersbackpack@1.0.35,pixelmon@8.4.2,naturescompass@1.8.5
-[08:20:42] [Netty Epoll Server IO #0/INFO] [journeymap]: CLIENT
-[08:20:43] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[08:20:43] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Judy[/127.0.0.1:37160] logged in with entity id 1718 at (258.5, 61.0, -38.5)
-[08:20:43] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Judy joined the game
-[08:20:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Aurora: Teleported Aurora to Judy]
-[08:20:58] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Judy has made the advancement [You picked a starter!]
-[08:22:35] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Judy was slain by Aurora
-[08:23:13] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Aurora: Teleported Judy to Aurora]
-[08:24:10] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <Aurora> 床放这边
-[08:24:31] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <Aurora> t是聊天
-[08:24:39] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <Aurora> 左斜杠是指令
-[08:24:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <Aurora> j是地图
-[08:24:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <Judy> soga
-[08:25:02] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <Aurora> r是丢出你的宝可梦
-[08:25:24] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Opped Judy
-[08:25:38] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 24df865e-b50d-4a1e-a1ca-ee66b972682d
-[08:25:38] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 4898adfe-8511-47e1-8a4a-860e4ac56233
-[08:26:29] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <Judy> 你一百级
-[08:26:38] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <Judy> 可恶
-[08:26:40] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <Aurora> 你想要经验果实吗
-[08:26:44] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <Judy> 要
-[08:26:47] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <Aurora> 还是你慢慢刷级
-[08:26:59] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <Aurora> lai
-[08:27:24] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <Aurora> 左斜杠tp x y z可以传送
-[08:27:39] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <Aurora> 左斜杠tp name 可以传送到name处
-[08:27:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <Aurora> 左斜杠 a b可以把a传送到b
-[08:28:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Aurora: Teleported Aurora to Judy]
-[08:28:05] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <Judy> 左斜杠是哪个，我按了没反应
-[08:28:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <Aurora> 右shift旁边
-[08:28:41] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <Aurora> 给你经验糖了
-[08:28:44] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Judy: Teleported Judy to 1.5, 1.0, 1.5]
-[08:28:49] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Judy fell out of the world
-[08:28:51] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <Aurora> 把你的宝可梦放出来对着它用就行
-[08:29:01] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Aurora: Teleported Judy to Aurora]
-[08:29:02] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <Judy> 我丢
-[08:29:12] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <Judy> 你怎么还能召唤我
-[08:29:13] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <Aurora> 地面高度一般是70
-[08:29:25] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <Aurora> y是高度
-[08:29:42] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Judy: Teleported Judy to 100.5, 75.0, 100.5]
-[08:29:49] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Aurora: Teleported Aurora to Judy]
-[08:30:02] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Aurora: Teleported Judy to 10000.5, 90.0, 10000.5]
-[08:30:05] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Aurora: Teleported Aurora to Judy]
-[08:30:09] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Judy: Teleported Judy to Aurora]
-[08:30:13] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Aurora: Teleported Judy to 20000.5, 90.0, 20000.5]
-[08:30:15] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Judy fell from a high place
-[08:30:16] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Aurora: Teleported Aurora to Judy]
-[08:30:26] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Aurora: Teleported Judy to Aurora]
-[08:30:38] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <Judy> 我怎么tp你
-[08:30:52] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <Aurora> tp a然后tab补全我的名字
-[08:31:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Judy: Teleported Judy to Aurora]
-[08:31:07] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 24df865e-b50d-4a1e-a1ca-ee66b972682d
-[08:31:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Judy: Teleported Judy to Aurora]
-[08:31:44] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <Judy> 我怎么丢不出去我的精灵
-[08:32:00] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <Aurora> 设置
-[08:32:01] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Judy: Teleported Aurora to Judy]
-[08:32:09] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <Aurora> 控制
-[08:32:14] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <Aurora> 翻到最底下
-[08:32:34] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <Aurora> 把r键改成其他的，别把r占用了就行
-[08:34:35] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <Judy> 怎么治疗重伤的
-[08:35:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Aurora: Teleported Judy to Aurora]
-[08:35:06] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <Aurora> 找护士
-[08:35:21] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <Aurora> 右键
-[08:36:54] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <Aurora> 收回
-[08:37:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <Aurora> 它卡墙里了，在窒息扣血
-[08:37:25] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Aurora: Aurora successfully healed Judy's Pokémon!]
-[08:37:44] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <Aurora> 右键可以骑上去
-[08:38:07] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Charizard moved wrongly!
-[08:38:07] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Charizard moved wrongly!
-[08:38:14] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <Aurora> 喷火龙飞行比较难控制
-[08:38:31] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Aurora: Teleported Aurora to Judy]
-[08:38:35] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <Judy> 怎么下来
-[08:38:53] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <Aurora> 左shift或者直接r把它收回
-[08:39:00] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <Aurora> 电话？
-[08:40:17] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 4898adfe-8511-47e1-8a4a-860e4ac56233
-[08:40:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Judy has made the advancement [Only took me four tries *Fist pump*]
-[08:40:34] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 4898adfe-8511-47e1-8a4a-860e4ac56233
-[08:41:30] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <Judy> 好无语
-[08:41:34] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <Judy> zhuabudao
-[08:41:47] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <Aurora> 电话？
-[08:41:51] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <Judy> 抓不到，要么打死，要么抓不到
-[08:42:06] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <Judy> 对象在旁边睡觉，不太方便
-[08:42:35] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <Judy> 等会，我看她该醒了
-[08:42:43] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Aurora: Changing to clear weather]
-[08:42:48] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Aurora: Set the time to 6000]
-[08:44:02] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 4898adfe-8511-47e1-8a4a-860e4ac56233
-[08:44:53] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Aurora fell out of the world
-[08:44:53] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Aurora: Killed Aurora]
-[08:44:53] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Judy: Teleported Judy to Aurora]
-[08:44:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Judy fell out of the world
-[08:44:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Aurora: Killed Judy]
-[08:45:09] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Judy: Teleported Judy to Aurora]
-[08:45:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Judy has made the advancement [Acquire Hardware]
-[08:49:19] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Judy has made the advancement [Isn't It Iron Pick]
-[08:50:38] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Judy: Teleported Judy to 1900.5, 65.0, 256.5]
-[08:51:08] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Judy: Teleported Judy to 1911.5, 65.0, 254.5]
-[08:52:01] [Server thread/INFO] [Pixelmon]: Registering NPCs.
-[08:52:01] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type malerocketgrunt for language zh_cn.
-[08:52:01] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type femaleaquagrunt for language zh_cn.
-[08:52:01] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type maleaquagrunt for language zh_cn.
-[08:52:01] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type femalemagmagrunt for language zh_cn.
-[08:52:01] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type malemagmagrunt for language zh_cn.
-[08:52:01] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type pirate for language zh_cn.
-[08:52:01] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type sport for language zh_cn.
-[08:52:01] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type gardener for language zh_cn.
-[08:52:01] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type pkmnbreeder_f for language zh_cn.
-[08:52:01] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type rancher for language zh_cn.
-[08:52:01] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type miner for language zh_cn.
-[08:52:01] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type blacksmith for language zh_cn.
-[08:52:01] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type steve for language zh_cn.
-[08:52:01] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type teamyellgruntmale for language zh_cn.
-[08:52:01] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type teamyellgruntfemale for language zh_cn.
-[08:52:01] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type skullgruntmale for language zh_cn.
-[08:52:01] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type skullgruntfemale for language zh_cn.
-[08:52:01] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type plasmagruntmale for language zh_cn.
-[08:52:01] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type plasmagruntfemale for language zh_cn.
-[08:52:01] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type n for language zh_cn.
-[08:52:01] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type mountaineer for language zh_cn.
-[08:52:01] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type magmaboss for language zh_cn.
-[08:52:01] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type guzma for language zh_cn.
-[08:52:01] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type giovani for language zh_cn.
-[08:52:01] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type gentleman for language zh_cn.
-[08:52:01] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type galacticgruntmale for language zh_cn.
-[08:52:01] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type galacticgruntfemale for language zh_cn.
-[08:52:01] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type galacticboss for language zh_cn.
-[08:52:01] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type flaregruntmale for language zh_cn.
-[08:52:01] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type flaregruntfemale for language zh_cn.
-[08:52:01] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type aquaboss for language zh_cn.
-[08:53:27] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Judy moved wrongly!
-[08:54:11] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 24df865e-b50d-4a1e-a1ca-ee66b972682d
-[08:54:11] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 4898adfe-8511-47e1-8a4a-860e4ac56233
-[08:55:50] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 24df865e-b50d-4a1e-a1ca-ee66b972682d
-[08:57:14] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 79927c96-1584-40d2-9c7f-d97a274e8d93
-[09:00:43] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Aurora: Changing to clear weather]
-[09:01:19] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 4898adfe-8511-47e1-8a4a-860e4ac56233
-[09:01:31] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 4898adfe-8511-47e1-8a4a-860e4ac56233
-[09:01:47] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Aurora: Aurora successfully healed Judy's Pokémon!]
-[09:01:59] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 24df865e-b50d-4a1e-a1ca-ee66b972682d
-[09:02:12] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Aurora: Aurora successfully healed Aurora's Pokémon!]
-[09:02:54] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 24df865e-b50d-4a1e-a1ca-ee66b972682d
-[09:02:54] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 4898adfe-8511-47e1-8a4a-860e4ac56233
-[09:03:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <Aurora> pokeheal
-[09:04:02] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Judy: Judy successfully healed Judy's Pokémon!]
-[09:04:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <Aurora> weather clear
-[09:05:10] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Judy was slain by Aurora
-[09:05:19] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Aurora: Teleported Aurora to Judy]
-[09:05:54] [Server thread/INFO] [STDOUT]: [biomesoplenty.common.world.BiomeProviderBOPHell:<init>:32]: settings for hell world: 
-[09:05:54] [Server thread/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@44ccf49b)
-[09:05:55] [Server thread/INFO] [FML]: Unloading dimension -1
-[09:06:20] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Aurora: Teleported Aurora to Judy]
-[09:06:40] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Judy: Judy successfully healed Judy's Pokémon!]
-[09:06:53] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID a226ed09-cb50-40f0-ac41-e27a8e098fe2
-[09:06:53] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 79927c96-1584-40d2-9c7f-d97a274e8d93
-[09:08:55] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 4898adfe-8511-47e1-8a4a-860e4ac56233
-[09:09:01] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Aurora: Aurora successfully healed Aurora's Pokémon!]
-[09:09:06] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Aurora: Aurora successfully healed Judy's Pokémon!]
-[09:09:07] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Judy: Judy successfully healed Judy's Pokémon!]
-[09:09:22] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <Judy> weather clear
-[09:09:30] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Judy: Changing to clear weather]
-[09:10:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Aurora: Teleported Aurora to 30000.5, 90.0, 30000.5]
-[09:10:33] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Judy: Teleported Judy to Aurora]
-[09:10:35] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Pixelmon] Zamazenta has spawned in a Forest biome!
-[09:10:35] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Spawned Zamazenta at: world x:29992, y:77, z:29940
-[09:11:19] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 24df865e-b50d-4a1e-a1ca-ee66b972682d
-[09:12:16] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Aurora: Aurora successfully healed Aurora's Pokémon!]
-[09:12:35] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 4898adfe-8511-47e1-8a4a-860e4ac56233
-[09:13:19] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 4898adfe-8511-47e1-8a4a-860e4ac56233
-[09:13:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Judy has made the advancement [Cover Me With Diamonds]
-[09:14:55] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 24df865e-b50d-4a1e-a1ca-ee66b972682d
-[09:16:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Judy: Judy successfully healed Judy's Pokémon!]
-[09:16:44] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 4898adfe-8511-47e1-8a4a-860e4ac56233
-[09:16:48] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 4898adfe-8511-47e1-8a4a-860e4ac56233
-[09:17:16] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Aurora: Battle between Aurora and Judy started!]
-[09:17:16] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 24df865e-b50d-4a1e-a1ca-ee66b972682d
-[09:17:16] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 4898adfe-8511-47e1-8a4a-860e4ac56233
-[09:17:36] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 4898adfe-8511-47e1-8a4a-860e4ac56233
-[09:17:41] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 24df865e-b50d-4a1e-a1ca-ee66b972682d
-[09:18:01] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Judy fell out of the world
-[09:18:01] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Aurora: Killed Judy]
-[09:18:11] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 24df865e-b50d-4a1e-a1ca-ee66b972682d
-[09:18:17] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Judy lost connection: Disconnected
-[09:18:17] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Judy left the game
-[09:41:09] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Aurora: Given [Firework Rocket] * 64 to Aurora]
-[09:41:17] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Aurora: Given [Firework Rocket] * 64 to Aurora]
-[09:42:04] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [1854, 1847] in dimension 0 (overworld) while populating chunk [1855, 1847], causing cascading worldgen lag.
-[09:42:04] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[09:43:52] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 24df865e-b50d-4a1e-a1ca-ee66b972682d
-[09:43:58] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Aurora moved too quickly! 70.68703073438883,55.32957284720325,-18.238829947440536
-[09:45:03] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 3629ms behind, skipping 72 tick(s)
-[09:45:10] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Aurora moved too quickly! 10.027983529358607,-4.068237362483373,-15.558960419039067
-[09:45:18] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [1852, 1803] in dimension 0 (overworld) while populating chunk [1853, 1803], causing cascading worldgen lag.
-[09:45:18] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[09:45:24] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [1847, 1795] in dimension 0 (overworld) while populating chunk [1847, 1796], causing cascading worldgen lag.
-[09:45:24] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[09:45:24] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [1846, 1795] in dimension 0 (overworld) while populating chunk [1847, 1796], causing cascading worldgen lag.
-[09:45:24] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[09:45:37] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 16297ms behind, skipping 325 tick(s)
-[09:45:40] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [1845, 1765] in dimension 0 (overworld) while populating chunk [1845, 1766], causing cascading worldgen lag.
-[09:45:40] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[09:45:41] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 4414ms behind, skipping 88 tick(s)
-[09:45:42] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [1842, 1758] in dimension 0 (overworld) while populating chunk [1842, 1759], causing cascading worldgen lag.
-[09:45:42] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[09:46:04] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [1869, 1751] in dimension 0 (overworld) while populating chunk [1868, 1751], causing cascading worldgen lag.
-[09:46:04] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[09:46:04] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [1863, 1738] in dimension 0 (overworld) while populating chunk [1862, 1738], causing cascading worldgen lag.
-[09:46:04] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[09:46:04] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [1865, 1738] in dimension 0 (overworld) while populating chunk [1864, 1738], causing cascading worldgen lag.
-[09:46:04] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[09:46:04] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [1867, 1738] in dimension 0 (overworld) while populating chunk [1866, 1738], causing cascading worldgen lag.
-[09:46:04] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[09:46:04] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [1868, 1738] in dimension 0 (overworld) while populating chunk [1866, 1738], causing cascading worldgen lag.
-[09:46:04] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[09:46:05] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [1862, 1737] in dimension 0 (overworld) while populating chunk [1861, 1737], causing cascading worldgen lag.
-[09:46:05] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[09:46:05] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [1863, 1737] in dimension 0 (overworld) while populating chunk [1862, 1737], causing cascading worldgen lag.
-[09:46:05] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[09:46:05] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [1862, 1736] in dimension 0 (overworld) while populating chunk [1861, 1737], causing cascading worldgen lag.
-[09:46:05] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[09:46:05] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [1863, 1736] in dimension 0 (overworld) while populating chunk [1862, 1736], causing cascading worldgen lag.
-[09:46:05] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[09:46:05] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [1865, 1737] in dimension 0 (overworld) while populating chunk [1864, 1737], causing cascading worldgen lag.
-[09:46:05] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[09:46:05] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [1866, 1737] in dimension 0 (overworld) while populating chunk [1864, 1737], causing cascading worldgen lag.
-[09:46:05] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[09:46:05] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [1861, 1736] in dimension 0 (overworld) while populating chunk [1859, 1736], causing cascading worldgen lag.
-[09:46:05] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[09:46:05] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [1860, 1736] in dimension 0 (overworld) while populating chunk [1859, 1736], causing cascading worldgen lag.
-[09:46:05] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[09:46:05] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [1865, 1736] in dimension 0 (overworld) while populating chunk [1864, 1736], causing cascading worldgen lag.
-[09:46:05] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[09:46:06] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [1860, 1735] in dimension 0 (overworld) while populating chunk [1859, 1735], causing cascading worldgen lag.
-[09:46:06] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[09:46:06] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [1863, 1735] in dimension 0 (overworld) while populating chunk [1862, 1735], causing cascading worldgen lag.
-[09:46:06] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[09:46:06] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [1865, 1735] in dimension 0 (overworld) while populating chunk [1864, 1735], causing cascading worldgen lag.
-[09:46:06] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[09:46:06] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [1850, 1735] in dimension 0 (overworld) while populating chunk [1851, 1735], causing cascading worldgen lag.
-[09:46:06] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[09:46:06] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [1860, 1734] in dimension 0 (overworld) while populating chunk [1859, 1734], causing cascading worldgen lag.
-[09:46:06] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[09:46:06] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [1862, 1734] in dimension 0 (overworld) while populating chunk [1861, 1734], causing cascading worldgen lag.
-[09:46:06] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[09:46:06] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [1865, 1734] in dimension 0 (overworld) while populating chunk [1864, 1734], causing cascading worldgen lag.
-[09:46:06] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[09:47:37] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [1844, 1733] in dimension 0 (overworld) while populating chunk [1845, 1733], causing cascading worldgen lag.
-[09:47:37] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[09:47:41] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Aurora moved too quickly! -18.02891160240324,2.824561995868791,-2.9000779955131293
-[09:57:00] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Aurora: Given [Traveler's Backpack] * 1 to Aurora]
-[09:58:11] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Pixelmon] Latios has appeared in a den in a River biome!
-[09:58:11] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Spawned Latios at: world x:29588, y:65, z:27948
-[10:12:59] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 24df865e-b50d-4a1e-a1ca-ee66b972682d
-[10:14:28] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Aurora lost connection: Disconnected
-[10:14:28] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Aurora left the game
-[10:14:32] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Stopping the server
-[10:14:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
-[10:14:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
-[10:14:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
-[10:14:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'world'/overworld
-[10:14:33] [Server thread/INFO] [FML]: Unloading dimension 0
-[10:14:33] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
-[10:14:33] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
-[10:14:33] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[02:47:30] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[02:47:30] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[02:47:30] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[02:47:30] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2859 for Minecraft 1.12.2 loading
+[02:47:30] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_392, running on Linux:amd64:6.2.0-1018-azure, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
+[02:47:31] [main/INFO] [FML]: Searching /workspaces/MCpixelmon/./mods for mods
+[02:47:31] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in [R键整理] InventoryTweaks-1.63.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[02:47:31] [main/WARN] [FML]: The coremod invtweaks.forge.asm.FMLPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[02:47:31] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in UltimateStack.-1.12.2-1.3.1.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[02:47:31] [main/WARN] [FML]: The coremod UltimateStackPatchingLoader (com.porpit.ultimatestack.transform.UltimateStackPatchingLoader) is not signed!
+[02:47:31] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from PPCore.-1.12.2-2.0.0.jar
+[02:47:31] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[02:47:31] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
+[02:47:31] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.7.11 Source=file:/workspaces/MCpixelmon/./mods/PPCore.-1.12.2-2.0.0.jar Service=LaunchWrapper Env=SERVER
+[02:47:31] [main/WARN] [FML]: The coremod PPPatchingLoader (com.porpit.ppcore.core.PPPatchingLoader) is not signed!
+[02:47:31] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[02:47:31] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[02:47:31] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[02:47:31] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[02:47:33] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[02:47:33] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[02:47:33] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[02:47:33] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
+[02:47:33] [main/INFO] [mixin]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@1a1ed4e5
+[02:47:33] [main/INFO] [PPCore]: PPCore has been hooked by Forge, setting up Mixin and plugins
+[02:47:33] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[02:47:34] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[02:47:34] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[02:47:34] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[02:47:34] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[02:47:34] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[02:47:35] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[02:47:36] [main/INFO] [STDOUT]: [com.porpit.ppcore.transform.PPCoreTransformer:transform:50]: [ppcore] Patching net.minecraft.item.ItemStack
+[02:47:36] [main/INFO] [STDOUT]: [com.porpit.ppcore.transform.PPCoreTransformer:spliceClasses:159]: Spliced in METHOD: aip.d
+[02:47:36] [main/INFO] [STDOUT]: [com.porpit.ultimatestack.transform.UltimateStackTransformer$9:transform:468]: Patched Method:net.minecraft.item.ItemStack.writeToNBT: Int to Short
+[02:47:36] [main/INFO] [STDOUT]: [com.porpit.ultimatestack.transform.UltimateStackTransformer$9:transform:472]: Patched Method:net.minecraft.item.ItemStack.writeToNBT: Item Count Byte->Short
+[02:47:36] [main/INFO] [STDOUT]: [com.porpit.ultimatestack.transform.UltimateStackTransformer$9:transform:493]: Patched Method:net.minecraft.item.ItemStack.<init>: Item Count Byte->Short
+[02:47:36] [main/INFO] [STDOUT]: [com.porpit.ppcore.transform.PPCoreTransformer:transform:50]: [ppcore] Patching net.minecraft.tileentity.TileEntityDispenser
+[02:47:36] [main/INFO] [STDOUT]: [com.porpit.ultimatestack.transform.UltimateStackTransformer$1:transform:52]: Patched Method:net.minecraft.tileentity.TileEntityDispenser.getInventoryStackLimit:MaxStackSize
+[02:47:37] [main/INFO] [STDOUT]: [com.porpit.ppcore.transform.PPCoreTransformer:transform:50]: [ppcore] Patching net.minecraft.tileentity.TileEntityChest
+[02:47:37] [main/INFO] [STDOUT]: [com.porpit.ultimatestack.transform.UltimateStackTransformer$1:transform:52]: Patched Method:net.minecraft.tileentity.TileEntityChest.getInventoryStackLimit:MaxStackSize
+[02:47:37] [main/INFO] [STDOUT]: [com.porpit.ppcore.transform.PPCoreTransformer:transform:50]: [ppcore] Patching net.minecraft.tileentity.TileEntityFurnace
+[02:47:37] [main/INFO] [STDOUT]: [com.porpit.ultimatestack.transform.UltimateStackTransformer$1:transform:52]: Patched Method:net.minecraft.tileentity.TileEntityFurnace.getInventoryStackLimit:MaxStackSize
+[02:47:38] [main/INFO] [STDOUT]: [com.porpit.ppcore.transform.PPCoreTransformer:transform:50]: [ppcore] Patching net.minecraft.tileentity.TileEntityBrewingStand
+[02:47:38] [main/INFO] [STDOUT]: [com.porpit.ultimatestack.transform.UltimateStackTransformer$1:transform:52]: Patched Method:net.minecraft.tileentity.TileEntityBrewingStand.getInventoryStackLimit:MaxStackSize
+[02:47:38] [main/INFO] [STDOUT]: [com.porpit.ppcore.transform.PPCoreTransformer:transform:50]: [ppcore] Patching net.minecraft.tileentity.TileEntityHopper
+[02:47:38] [main/INFO] [STDOUT]: [com.porpit.ultimatestack.transform.UltimateStackTransformer$1:transform:52]: Patched Method:net.minecraft.tileentity.TileEntityHopper.getInventoryStackLimit:MaxStackSize
+[02:47:39] [main/INFO] [STDOUT]: [com.porpit.ppcore.transform.PPCoreTransformer:transform:50]: [ppcore] Patching net.minecraft.tileentity.TileEntityShulkerBox
+[02:47:39] [main/INFO] [STDOUT]: [com.porpit.ultimatestack.transform.UltimateStackTransformer$1:transform:52]: Patched Method:net.minecraft.tileentity.TileEntityShulkerBox.getInventoryStackLimit:MaxStackSize
+[02:47:40] [main/INFO] [STDOUT]: [com.porpit.ppcore.transform.PPCoreTransformer:transform:50]: [ppcore] Patching net.minecraft.entity.item.EntityMinecartContainer
+[02:47:41] [main/INFO] [STDOUT]: [com.porpit.ultimatestack.transform.UltimateStackTransformer$1:transform:52]: Patched Method:net.minecraft.entity.item.EntityMinecartContainer.getInventoryStackLimit:MaxStackSize
+[02:47:43] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
+[02:47:43] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2859 Initialized
+[02:47:43] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[02:47:44] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[02:47:44] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
+[02:47:44] [Server thread/INFO] [FML]: Searching /workspaces/MCpixelmon/./mods for mods
+[02:47:46] [Server thread/INFO] [FML]: Forge Mod Loader has identified 18 mods to load
+[02:47:46] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
+[02:47:46] [Server thread/WARN] [FML]: Missing English translation for bop_patch: assets/bop_patch/lang/en_us.lang
+[02:47:46] [Server thread/WARN] [FML]: Missing English translation for pixelextras: assets/pixelextras/lang/en_us.lang
+[02:47:46] [Server thread/WARN] [FML]: Missing English translation for ultimatestack: assets/ultimatestack/lang/en_us.lang
+[02:47:46] [Server thread/WARN] [FML]: Missing English translation for ppcore: assets/ppcore/lang/en_us.lang
+[02:47:47] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, PPDummy, jei, inventorytweaks, travelersbackpack, biomesoplenty, bop_patch, gameshark, journeymap, naturescompass, pixelextras, pixelmon, tcg, ultimatestack, ppcore] at CLIENT
+[02:47:47] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, PPDummy, jei, inventorytweaks, travelersbackpack, biomesoplenty, bop_patch, gameshark, journeymap, naturescompass, pixelextras, pixelmon, tcg, ultimatestack, ppcore] at SERVER
+[02:47:47] [Server thread/INFO] [STDOUT]: [com.porpit.ppcore.transform.PPCoreTransformer:transform:50]: [ppcore] Patching net.minecraft.network.PacketBuffer
+[02:47:47] [Server thread/INFO] [STDOUT]: [com.porpit.ppcore.transform.PPCoreTransformer:spliceClasses:159]: Spliced in METHOD: gy.a
+[02:47:47] [Server thread/INFO] [STDOUT]: [com.porpit.ppcore.transform.PPCoreTransformer:spliceClasses:159]: Spliced in METHOD: gy.k
+[02:47:48] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
+[02:47:48] [Server thread/INFO] [FML]: Found 1189 ObjectHolder annotations
+[02:47:48] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[02:47:48] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[02:47:48] [Server thread/INFO] [STDOUT]: [com.porpit.ppcore.transform.PPCoreTransformer:transform:50]: [ppcore] Patching net.minecraftforge.items.ItemStackHandler
+[02:47:48] [Server thread/INFO] [STDOUT]: [com.porpit.ultimatestack.transform.UltimateStackTransformer$8:transform:435]: Patched Method:net.minecraftforge.items.ItemStackHandler.getSlotLimit: MaxSlotLimit
+[02:47:48] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[02:47:48] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[02:47:48] [Server thread/INFO] [travelersbackpack]: Registered the class com.tiviacz.travelersbackpack.fluids.effects.EffectWater as a FluidEffect for water with the ID 0
+[02:47:48] [Server thread/INFO] [travelersbackpack]: Registered the class com.tiviacz.travelersbackpack.fluids.effects.EffectLava as a FluidEffect for lava with the ID 1
+[02:47:48] [Server thread/INFO] [travelersbackpack]: Registered the class com.tiviacz.travelersbackpack.fluids.effects.EffectMilk as a FluidEffect for milk with the ID 2
+[02:47:48] [Server thread/INFO] [travelersbackpack]: Registered the class com.tiviacz.travelersbackpack.fluids.effects.EffectPotion as a FluidEffect for potion with the ID 3
+[02:47:48] [Server thread/INFO] [travelersbackpack]: Starting the Integration Handler.
+[02:47:48] [Server thread/INFO] [travelersbackpack]: Didn't find any possible mod integration(s)!
+[02:47:50] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: UP_TO_DATE Target: null
+[02:47:50] [Forge Version Check/INFO] [forge.VersionCheck]: [ultimatestack] Starting version check at https://raw.githubusercontent.com/PorPit/UltimateStack/1.12.2/version.json
+[02:47:50] [Forge Version Check/INFO] [forge.VersionCheck]: [ultimatestack] Found status: UP_TO_DATE Target: null
+[02:47:50] [Forge Version Check/INFO] [forge.VersionCheck]: [pixelextras] Starting version check at https://ogn.pixelmonmod.com/update/sm-pe/update.json
+[02:47:51] [Forge Version Check/INFO] [forge.VersionCheck]: [pixelextras] Found status: UP_TO_DATE Target: null
+[02:47:51] [Forge Version Check/INFO] [forge.VersionCheck]: [pixelmon] Starting version check at https://reforged.gg/forge/update.json
+[02:47:51] [Forge Version Check/INFO] [forge.VersionCheck]: [pixelmon] Found status: OUTDATED Target: 8.4.3
+[02:47:51] [Forge Version Check/INFO] [forge.VersionCheck]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
+[02:47:51] [Forge Version Check/INFO] [forge.VersionCheck]: [travelersbackpack] Found status: AHEAD Target: null
+[02:47:51] [Server thread/INFO] [Pixelmon]: Loading Pixelmon version 8.4.2
+[02:47:53] [Server thread/INFO] [Pixelmon]: Checking for migrations..
+[02:47:53] [Server thread/INFO] [Pixelmon]: Loading Advancements
+[02:47:57] [Server thread/INFO] [Gameshark]: Successfully read config.
+[02:47:57] [Server thread/INFO] [Gameshark]: Successfully saved config.
+[02:47:57] [Server thread/INFO] [ppcore]: Loading PPCore
+[02:47:57] [Server thread/INFO] [ultimatestack]: Started loading config. 
+[02:47:57] [Server thread/INFO] [ultimatestack]: Finished loading config. 
+[02:47:57] [Thread-3/INFO] [ultimatestack]: 最新版本号:1.3.1
+[02:47:57] [Thread-3/INFO] [ultimatestack]: 更新日期:2019/02/26
+[02:47:57] [Thread-3/INFO] [ultimatestack]: 更新日志:修复linux 系统下配置文件路径问题
+[02:47:59] [Server thread/INFO] [FML]: Applying holder lookups
+[02:47:59] [Server thread/INFO] [FML]: Holder lookups applied
+[02:48:00] [Server thread/INFO] [FML]: Applying holder lookups
+[02:48:00] [Server thread/INFO] [FML]: Holder lookups applied
+[02:48:00] [Server thread/INFO] [FML]: Applying holder lookups
+[02:48:00] [Server thread/INFO] [FML]: Holder lookups applied
+[02:48:00] [Server thread/INFO] [FML]: Applying holder lookups
+[02:48:00] [Server thread/INFO] [FML]: Holder lookups applied
+[02:48:00] [Server thread/INFO] [FML]: Injecting itemstacks
+[02:48:00] [Server thread/INFO] [FML]: Itemstack injection complete
+[02:48:00] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
+[02:48:00] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
+[02:48:00] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
+[02:48:01] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
+[02:48:01] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using epoll channel type
+[02:48:01] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[02:48:01] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
+[02:48:01] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[02:48:01] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
+[02:48:01] [Server thread/INFO] [FML]: Applying holder lookups
+[02:48:01] [Server thread/INFO] [FML]: Holder lookups applied
+[02:48:01] [Server thread/WARN] [bop_patch]: Could not find LeavesModelEventHandler, is biomesoplenty really installed?
+[02:48:01] [Server thread/INFO] [Pixelmon]: Registering shop items.
+[02:48:01] [Server thread/INFO] [Pixelmon]: Registering NPCs.
+[02:48:02] [Server thread/INFO] [Pixelmon]: Registering structures.
+[02:48:02] [Server thread/INFO] [Pixelmon]: Registering all drops.
+[02:48:03] [Server thread/INFO] [Pixelmon]: Registering battle rules.
+[02:48:03] [Server thread/INFO] [Pixelmon]: Registering Pokémon stats.
+[02:48:03] [Server thread/WARN] [Pixelmon]: Attack name invalid: Chloroblast
+[02:48:03] [Server thread/WARN] [Pixelmon]: Attack name invalid: Barb Barrage
+[02:48:03] [Server thread/WARN] [Pixelmon]: Attack name invalid: Ceaseless Edge
+[02:48:03] [Server thread/WARN] [Pixelmon]: Attack name invalid: Esper Wing
+[02:48:03] [Server thread/WARN] [Pixelmon]: Attack name invalid: Power Shift
+[02:48:03] [Server thread/WARN] [Pixelmon]: Attack name invalid: Shelter
+[02:48:03] [Server thread/WARN] [Pixelmon]: Attack name invalid: Shelter
+[02:48:03] [Server thread/WARN] [Pixelmon]: Attack name invalid: Psyshield Bash
+[02:48:03] [Server thread/WARN] [Pixelmon]: Attack name invalid: Tackled
+[02:48:03] [Server thread/WARN] [Pixelmon]: Attack name invalid: Wave Crash
+[02:48:03] [Server thread/WARN] [Pixelmon]: Attack name invalid: Springtide Storm
+[02:48:03] [Server thread/WARN] [Pixelmon]: Attack name invalid: Power Shift
+[02:48:03] [Server thread/INFO] [Pixelmon]: Registering quests.
+[02:48:04] [Server thread/INFO] [Pixelmon]: Loaded 39 Quests.
+[02:48:04] [Server thread/INFO] [Gameshark]: initializing Gameshark v6.0.6
+[02:48:04] [Server thread/INFO] [Pixelmon TCG]: Initializing Pixelmon TCG v1.12.2-8.4.2-universal
+[02:48:04] [Server thread/INFO] [ultimatestack]: Started loading Item. 
+[02:48:04] [Server thread/INFO] [STDOUT]: [com.porpit.ppcore.transform.PPCoreTransformer:transform:50]: [ppcore] Patching net.minecraft.inventory.InventoryBasic
+[02:48:04] [Server thread/INFO] [STDOUT]: [com.porpit.ultimatestack.transform.UltimateStackTransformer$1:transform:52]: Patched Method:net.minecraft.inventory.InventoryBasic.getInventoryStackLimit:MaxStackSize
+[02:48:05] [Server thread/INFO] [ultimatestack]: Finished loading Item. 
+[02:48:05] [Server thread/INFO] [FML]: Injecting itemstacks
+[02:48:05] [Server thread/INFO] [FML]: Itemstack injection complete
+[02:48:05] [Server thread/INFO] [Pixelmon]: Registering spawn sets.
+[02:48:06] [Server thread/INFO] [Pixelmon]: Registering raid spawning.
+[02:48:06] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 18 mods
+[02:48:06] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
+[02:48:06] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[02:48:08] [Server thread/INFO] [FML]: Applying holder lookups
+[02:48:08] [Server thread/INFO] [FML]: Holder lookups applied
+[02:48:08] [Server thread/INFO] [FML]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@742a65a7)
+[02:48:09] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 946 advancements
+[02:48:09] [Server thread/INFO] [FML]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@742a65a7)
+[02:48:09] [Server thread/INFO] [STDOUT]: [biomesoplenty.common.world.BiomeProviderBOPHell:<init>:32]: settings for hell world: 
+[02:48:09] [Server thread/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@742a65a7)
+[02:48:09] [Server thread/INFO] [FML]: Loading dimension 72 (world) (net.minecraft.server.dedicated.DedicatedServer@742a65a7)
+[02:48:09] [Server thread/INFO] [FML]: Loading dimension 73 (world) (net.minecraft.server.dedicated.DedicatedServer@742a65a7)
+[02:48:09] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[02:48:12] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 0%
+[02:48:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 22%
+[02:48:14] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 75%
+[02:48:14] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (7.890s)! For help, type "help" or "?"
+[02:48:15] [Server thread/INFO] [ultimatestack]: UltimateStack (终极堆叠) MOD 成功加载! 作者:PorPit(泼皮)
+[02:48:15] [Server thread/INFO] [ultimatestack]: 如有问题反馈 https://github.com/PorPit/UltimateStack/issues   泼皮QQ:692066768
+[02:48:15] [Server thread/INFO] [FML]: Unloading dimension 1
+[02:48:15] [Server thread/INFO] [FML]: Unloading dimension -1
+[02:48:15] [Server thread/INFO] [FML]: Unloading dimension 72
+[02:48:15] [Server thread/INFO] [FML]: Unloading dimension 73
+[02:48:29] [Server thread/INFO] [STDOUT]: [com.porpit.ppcore.transform.PPCoreTransformer:transform:50]: [ppcore] Patching net.minecraft.entity.player.InventoryPlayer
+[02:48:29] [Server thread/INFO] [STDOUT]: [com.porpit.ultimatestack.transform.UltimateStackTransformer$1:transform:52]: Patched Method:net.minecraft.entity.player.InventoryPlayer.getInventoryStackLimit:MaxStackSize
+[02:48:29] [Server thread/INFO] [STDOUT]: [com.porpit.ppcore.transform.PPCoreTransformer:transform:50]: [ppcore] Patching net.minecraft.inventory.InventoryCrafting
+[02:48:29] [Server thread/INFO] [STDOUT]: [com.porpit.ultimatestack.transform.UltimateStackTransformer$1:transform:52]: Patched Method:net.minecraft.inventory.InventoryCrafting.getInventoryStackLimit:MaxStackSize
+[02:48:29] [Server thread/INFO] [STDOUT]: [com.porpit.ppcore.transform.PPCoreTransformer:transform:50]: [ppcore] Patching net.minecraft.inventory.InventoryCraftResult
+[02:48:29] [Server thread/INFO] [STDOUT]: [com.porpit.ultimatestack.transform.UltimateStackTransformer$1:transform:52]: Patched Method:net.minecraft.inventory.InventoryCraftResult.getInventoryStackLimit:MaxStackSize
+[02:48:29] [Server thread/INFO] [STDOUT]: [com.porpit.ppcore.transform.PPCoreTransformer:transform:50]: [ppcore] Patching net.minecraft.network.NetHandlerPlayServer
+[02:48:29] [Server thread/INFO] [STDOUT]: [com.porpit.ultimatestack.transform.UltimateStackTransformer$7:transform:410]: Patched Method:net.minecraft.network.NetHandlerPlayServer.processCreativeInventoryAction: Creative Clone
+[02:48:29] [Netty Epoll Server IO #1/INFO] [FML]: Client protocol version 2
+[02:48:29] [Netty Epoll Server IO #1/INFO] [FML]: Client attempting to join with 20 mods : minecraft@1.12.2,PPDummy@1.0.0,FML@8.0.99.99,inventorytweaks@1.63+release.109.220f184,fancymenu@1.5.2,biomesoplenty@7.0.1.2444,ppcore@2.0.0,pixelextras@2.5.17,jei@4.16.1.301,bop_patch@1.0,gameshark@6.0.6,forge@14.23.5.2860,ultimatestack@1.3.1,tcg@1.12.2-8.4.2-universal,konkrete@1.0.3,mcp@9.42,journeymap@1.12.2-5.7.1,travelersbackpack@1.0.35,pixelmon@8.4.2,naturescompass@1.8.5
+[02:48:29] [Netty Epoll Server IO #1/INFO] [journeymap]: CLIENT
+[02:48:30] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[02:48:30] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Aurora[/127.0.0.1:57542] logged in with entity id 1 at (29711.932577469706, 68.0, 27781.35955085069)
+[02:48:30] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Aurora joined the game
+[02:48:59] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 24df865e-b50d-4a1e-a1ca-ee66b972682d
+[02:51:56] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 24df865e-b50d-4a1e-a1ca-ee66b972682d
+[02:52:54] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2489ms behind, skipping 49 tick(s)
+[02:54:59] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Aurora moved wrongly!
+[02:55:31] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID d48fbcb7-02a6-4820-bd52-e84f952ec75d
+[02:55:47] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 24df865e-b50d-4a1e-a1ca-ee66b972682d
+[02:56:45] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2797ms behind, skipping 55 tick(s)
+[02:57:17] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [1835, 1711] in dimension 0 (overworld) while populating chunk [1836, 1711], causing cascading worldgen lag.
+[02:57:17] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[02:57:17] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [1836, 1712] in dimension 0 (overworld) while populating chunk [1835, 1711], causing cascading worldgen lag.
+[02:57:17] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[02:57:17] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [1835, 1712] in dimension 0 (overworld) while populating chunk [1835, 1711], causing cascading worldgen lag.
+[02:57:17] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[02:57:17] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [1836, 1713] in dimension 0 (overworld) while populating chunk [1835, 1711], causing cascading worldgen lag.
+[02:57:17] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[02:57:17] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [1835, 1713] in dimension 0 (overworld) while populating chunk [1835, 1711], causing cascading worldgen lag.
+[02:57:17] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[02:57:17] [Server thread/INFO] [Pixelmon]: Gym spawned at 29391 63 27384
+[02:58:53] [Server thread/INFO] [FML]: Loading dimension 72 (world) (net.minecraft.server.dedicated.DedicatedServer@742a65a7)
+[02:58:55] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Aurora moved wrongly!
+[02:58:56] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2032ms behind, skipping 40 tick(s)
+[02:59:04] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Aurora moved too quickly! 16.76566268586612,6.314644399722816,3.025166940580675
+[02:59:33] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Aurora moved too quickly! -9.258012154241442,-2.2385207224444628,-15.533565346264368
+[02:59:40] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 19821ms behind, skipping 396 tick(s)
+[02:59:45] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 24df865e-b50d-4a1e-a1ca-ee66b972682d
+[03:00:12] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Aurora moved too quickly! -0.6000608983886195,7.038371156607042,-16.071754968161258
+[03:00:13] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [1860, 1682] in dimension 72 (ultra_space) while populating chunk [1861, 1683], causing cascading worldgen lag.
+[03:00:13] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[03:00:16] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Aurora moved too quickly! -1.3813943866734917,8.182778931248151,-16.26012540507145
+[03:00:19] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 6141ms behind, skipping 122 tick(s)
+[03:00:29] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [1854, 1659] in dimension 72 (ultra_space) while populating chunk [1855, 1660], causing cascading worldgen lag.
+[03:00:29] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[03:01:10] [Server thread/INFO] [STDOUT]: [com.porpit.ppcore.transform.PPCoreTransformer:transform:50]: [ppcore] Patching net.minecraft.inventory.InventoryHelper
+[03:01:10] [Server thread/INFO] [STDOUT]: [com.porpit.ultimatestack.transform.UltimateStackTransformer$2:transform:79]: Patched Method:net.minecraft.inventory.InventoryHelper.spawnItemStack:Random Range
+[03:01:22] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Aurora moved too quickly! -4.4229572709409695,-16.85412023525052,-2.208844390090235
+[03:01:24] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Aurora moved too quickly! -3.974432554536179,-18.084309319375507,-2.240568374571012
+[03:01:30] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 46160ms behind, skipping 923 tick(s)
+[03:40:53] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Pixelmon] Suicune has spawned in a Ultra Deep Sea biome!
+[03:40:53] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Spawned Suicune at: world x:29352, y:98, z:25354
