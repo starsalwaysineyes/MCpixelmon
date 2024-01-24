@@ -273,7 +273,7 @@ General {
     # The maximum level that a Pokémon can be.
     maxLevel=100
     # The maximum plants allowed within a chunk. Applies to Apricorns and Berries.
-    maximumPlants=32
+    maximumPlants=256
     # The amount of moves a move Tutor will have
     movesPerTutor=20
     # Allow each player to take multiple photos of the same Pokémon.
