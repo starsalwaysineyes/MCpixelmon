@@ -1,0 +1,19 @@
+列表
+screen -ls
+
+退出
+screen界面中运行exit
+
+新建：
+screen -S name
+screen -R name（检测重复，重复进原有）
+
+返回主终端
+ctrl+a d
+
+回到已有screen
+screen -r name
+
+外界关闭
+screen -R [pid/Name] -X quit
+
